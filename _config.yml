@@ -4,7 +4,8 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 
-contact_mail: "digitus@digitus.digitus"
+contact_board: "styret@digitusuio.no"
+contact_leader: "leder@digitusuio.no"
 
 board_members: [
   {
