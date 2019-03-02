@@ -1,0 +1,55 @@
+title: Digitus
+description: "Linjeforeningen for studiet Informatikk:<br>Digital økonomi og ledelse ved Universitet i Oslo."
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
+
+contact_mail: "digitus@digitus.digitus"
+
+board_members: [
+  {
+    name: "Elena Snellingen",
+    img: "https://i.imgur.com/13RwoDl.jpg",
+    role: "Leder",
+  },
+  {
+    name: "Martine Karlsen",
+    img: "https://i.imgur.com/irkkOZA.jpg",
+    role: "Nestleder",
+  },
+  {
+      name: "Thea Petrine Hammer",
+      img: "https://i.imgur.com/nqN1ULd.jpg",
+      role: "Økonomiansvarlig",
+  },
+  {
+      name: "Håkon Kringstad",
+      img: "https://i.imgur.com/W5oAksT.jpg",
+      role: "Eventansvarlig",
+  },
+  {
+      name: "Ludvig Oftedal Vinje",
+      img: "https://i.imgur.com/uNKwGiC.jpg",
+      role: "Bedriftskontakt",
+  },
+  {
+      name: "Cecilie Isdahl",
+      img: "https://i.imgur.com/ezLKcGh.jpg",
+      role: "Webansvarlig",
+  },
+  {
+      name: "Julie Eldøy",
+      img: "https://i.imgur.com/aFoKTs4.jpg",
+      role: "Seniormedlem",
+  },
+  {
+      name: "Johannes Telle",
+      img: "https://i.imgur.com/0T0Jfae.jpg",
+      role: "Styremedlem",
+  },
+  {
+      name: "Ingeborg Steel",
+      img: "https://i.imgur.com/s689jSD.jpg",
+      role: "Styremedlem",
+  },
+]
