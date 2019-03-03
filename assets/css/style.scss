@@ -18,7 +18,9 @@ body {
   justify-content: space-between;
 }
 
-
+#about {
+  margin-top: 70px;
+}
 
 .section {
   max-width: 64rem;
@@ -67,8 +69,11 @@ body {
 .page-header {
   background-image: linear-gradient(120deg, #005894, #299CD8);
   padding-bottom: 1rem;
-  padding-top: 5rem;
+  padding-top: 0;
   background-color: rgba(0,0,0,0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .page-header h2 {
@@ -90,14 +95,20 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 16px;
-  max-width: 500px;
-  margin: 2rem auto 0;
+  margin: 0 0 1rem;
   text-decoration: underline;
+  align-self: flex-end;
 }
 
 .menu-bar a {
   color: white;
+  padding: 0.8rem 0.6rem;
+  transition: background-color 0.3s ease;
 
+}
+
+.menu-bar a:hover {
+  background-color: rgba(41, 156, 216, 0.5);
 }
 
 .menu-bar .btn {
@@ -135,7 +146,7 @@ body {
   align-items: stretch;
   max-width: 64rem;
   width: 100%;
-  margin: 70px 4rem 2rem;
+  margin: 2rem 4rem 2rem;
 }
 
 .images-footer {

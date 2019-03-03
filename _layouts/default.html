@@ -13,12 +13,16 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+      <div class="menu-bar"><a href="#about">Om oss</a><a href="#calender">Arrangementer</a><a href="#contact">Kontakt oss</a><a href="#board">Styret</a><a href="#images">Bilder</a></div>
       <img src="/assets/img/logo.png"/>
       <h2>{{ site.description }}</h2>
-      <div class="menu-bar"><a href="#calender">Arrangementer</a><a href="#contact">Kontakt oss</a><a href="#board">Styret</a><a href="#images">Bilder</a></div>
     </header>
 
     <main id="content" class="main-content" role="main">
+      <div id="about" class="section about">
+        <h2>Om oss</h2>
+        <p>{{ site.about }}</p>
+      </div>
       <div class="section-container">
         <div id="calender" class="section calender">
           <h2>Arrangementer</h2>
