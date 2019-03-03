@@ -24,10 +24,9 @@ body {
   max-width: 64rem;
   padding: 2rem 2rem 2rem 3rem;
   margin: 2rem 4rem;
-  background-color: #fff;
+  background-color: #D8E7F8;
   flex-grow: 1;
   width: 100%;
-  border-radius:2rem;
 }
 
 .main-content {
@@ -65,19 +64,15 @@ body {
   font-size: 0.9rem;
 }
 
-body {
-  background-image: linear-gradient(120deg, #005894, #299CD8);
-}
-
 .page-header {
-  background-image: none;
-  padding-bottom: 5rem;
+  background-image: linear-gradient(120deg, #005894, #299CD8);
+  padding-bottom: 1rem;
   padding-top: 5rem;
   background-color: rgba(0,0,0,0);
 }
 
 .page-header h2 {
-  margin: 50px auto 0;
+  margin: 50px auto 40px;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
@@ -95,6 +90,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 16px;
+  max-width: 500px;
+  margin: 2rem auto 0;
+  text-decoration: underline;
+}
+
+.menu-bar a {
+  color: white;
+
 }
 
 .menu-bar .btn {
@@ -131,8 +134,8 @@ body {
   display: flex;
   align-items: stretch;
   max-width: 64rem;
-  margin: 2rem 4rem;
   width: 100%;
+  margin: 70px 4rem 2rem;
 }
 
 .images-footer {
