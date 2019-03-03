@@ -224,9 +224,19 @@ body {
 
 #sponsor .section > div {
   display: flex;
+  align-items: center;
 }
 
 #sponsor h3 {
   margin-left: 20px;
   margin-top: 0;
+}
+
+#sponsor .section h3 {
+  margin-bottom: 5px;
+}
+
+#sponsor .section p {
+  margin-top: 5px;
+  margin-bottom: 0;
 }
