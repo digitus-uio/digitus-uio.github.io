@@ -162,9 +162,6 @@ a {
 .main-content {
   word-wrap: break-word;
 
-  :first-child {
-    margin-top: 0;
-  }
 
   @include large {
     max-width: 64rem;

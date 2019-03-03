@@ -6,33 +6,37 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <div class="top">
-        <img src="/assets/img/logo_d.png"/>
-        <h2 class="project-tagline">{{ site.description }}</h2>
-      </div>
-      <div class="menu-bar">
-        <img src="/assets/img/logo_digitus.png"/>
-        <div class="menu"><a class="btn" href="#calender">Arrangementer</a><a class="btn" href="#board">Styret</a><a class="btn" href="#images">Bilder</a><a class="btn" href="#contact">Kontakt oss</a></div>
-      </div>
+      <img src="/assets/img/logo.png"/>
+      <h2>{{ site.description }}</h2>
     </header>
 
     <main id="content" class="main-content" role="main">
-      <div id="calender" class="section calender">
-        <h2>Arrangementer</h2>
-        <div class="event">
-          <a href="#"><h3>Morro med digitus</h3></a>
-          <p>Torsdag kl. 12:15, Fortran</p>
+      <div class="section-container">
+        <div id="calender" class="section calender">
+          <h2>Arrangementer</h2>
+          <div class="event">
+            <a href="#"><h3>Morro med digitus</h3></a>
+            <p>Torsdag kl. 12:15, Fortran</p>
+          </div>
+          <div class="event">
+            <a href="#"><h3>Annen morro med digitus</h3></a>
+            <p>22. mars kl. 18:00, Escape</p>
+          </div>
+          <p><a href="https://www.facebook.com/digitusuio/">Flere arrangementer på vår Facebook-side</a></p>
         </div>
-        <div class="event">
-          <a href="#"><h3>Annen morro med digitus</h3></a>
-          <p>22. mars kl. 18:00, Escape</p>
+        <div id="contact" class="section">
+          <h2>Kontakt oss</h2>
+          <div><i class="far fa-envelope"></i><a href="{{ site.contact_leader }}">{{ site.contact_leader }}</a></div>
+          <div><i class="far fa-envelope"></i><a href="{{ site.contact_board }}">{{ site.contact_board }}</a></div>
+          <div><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/digitusuio/">Digitus UiO</a></div>
+          <div><i class="fab fa-instagram"></i><a href="https://www.instagram.com/digitus_uio/">digitus_uio</a></div>
         </div>
       </div>
       <div id="board" class="section board">
@@ -47,15 +51,7 @@
         {% endfor %}
         </div>
       </div>
-      <div id="images" class="section images"><h2>Bilder</h2><div class="images-holder"></div></div>
-      <div id="contact" class="section">
-        <h2>Kontakt oss</h2>
-        <p>Du kan kontakte leder på  <a href="{{ site.contact_leader }}">{{ site.contact_leader }}</a> eller hele styret på <a href="{{ site.contact_board }}">{{ site.contact_board }}</a></p>
-      </div>
-      </div>
-      <footer id="footer" class="section site-footer">
-        <div class="site-footer-credits contact">Hold deg oppdatert på hva vi driver med på vår <a href="https://www.facebook.com/digitusuio/">Facebook</a> og på vår <a href="https://www.instagram.com/digitus_uio/">Instagram</a></div>
-      </footer>
+      <div id="images" class="section images"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
     </main>
     <script type="text/javascript">
       function callAjax(url, callback){
@@ -73,9 +69,12 @@
 
       callAjax('https://api.instagram.com/v1/users/self/media/recent/?access_token=5889155613.7519461.9110620ffed1489c94fc0c38763186df', function(data) {
         data = JSON.parse(data)['data'];
-
+        var i = 0;
         data.forEach(function(image) {
-          document.getElementsByClassName('images-holder')[0].innerHTML += '<a href="' + image.link + '"><img src="' + image.images.thumbnail.url + '"/>';
+          if(i < 9) {
+            document.getElementsByClassName('images-holder')[0].innerHTML += '<a href="' + image.link + '"><img src="' + image.images.low_resolution.url + '"/>';
+          }
+          i++;
         });
 
       });
