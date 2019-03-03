@@ -24,7 +24,7 @@ body {
 
 .section {
   max-width: 64rem;
-  padding: 2rem 2rem 2rem 3rem;
+  padding: 2rem 3rem 2rem 3rem;
   margin: 2rem 4rem;
   background-color: #D8E7F8;
   flex-grow: 1;
@@ -166,9 +166,29 @@ body {
   margin-left: 3rem;
 }
 
-@media only screen and (max-width: 80rem) {
-  .section:nth-child(even) {
-    max-width: 64rem;
-    padding: 6rem 6rem;
-  }
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact > div {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#contact .links div {
+  margin-bottom: 20px;
+}
+
+#contact .icon-bar {
+  display: flex;
+  margin: 0 auto;
+}
+
+.icon-bar img {
+  width: 50px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
