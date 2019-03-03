@@ -192,3 +192,19 @@ body {
   margin-left: 12px;
   margin-right: 12px;
 }
+
+#sponsor > div {
+  display: flex;
+}
+
+#sponsor img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+#sponsor p {
+  margin-left: 20px;
+}
