@@ -193,11 +193,9 @@ body {
   margin-right: 12px;
 }
 
-#sponsor > div {
-  display: flex;
-}
 
 #sponsor img {
+  margin-left: 3rem;
   object-fit: contain;
   max-width: 200px;
   max-height: 100%;
@@ -207,4 +205,15 @@ body {
 
 #sponsor p {
   margin-left: 20px;
+}
+
+#sponsor {
+  display: flex;
+  max-width: 64rem;
+  width: 100%;
+  margin: 2rem 4rem 2rem;
+}
+
+#sponsor .section {
+  margin: 0 0 0 3rem;
 }
