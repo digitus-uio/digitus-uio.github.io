@@ -197,7 +197,6 @@ body {
 #sponsor img {
   object-fit: contain;
   max-width: 230px;
-  max-height: 100%;
   width: auto;
   height: auto;
 }
@@ -217,6 +216,11 @@ body {
   margin: 0 0 0 0;
 }
 
-#sponsor .section div {
+#sponsor .section > div {
   display: flex;
+}
+
+#sponsor h3 {
+  margin-left: 20px;
+  margin-top: 0;
 }
