@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
     <header class="page-header" role="banner">
       <div class="menu-bar"><a href="#about">Om oss</a><a href="#calender">Arrangementer</a><a href="#contact">Kontakt oss</a><a href="#sponsor">Samarbeidspartner</a><a href="#board">Styret</a><a href="#images">Bilder</a></div>
       <img src="/assets/img/banner.png"/>
@@ -20,7 +18,12 @@
     <main id="content" class="main-content" role="main">
       <div id="about" class="section about">
         <h2>Om oss</h2>
-        <p>{{ site.about }}</p>
+        <div>
+          <p>{{ site.about }}</p>
+          <div class="img-cont-2">
+            <img src="{{ site.about_image }}"/>
+          </div>
+        </div>
       </div>
       <div class="section-container">
         <div id="calender" class="section calender">
