@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.0/moveTo.min.js"></script>
   </head>
   <body>
     <header class="page-header" role="banner">
-      <div class="menu-bar"><a href="#about">Om oss</a><a href="#calender">Arrangementer</a><a href="#contact">Kontakt oss</a><a href="#sponsor">Samarbeidspartner</a><a href="#board">Styret</a><a href="#images">Bilder</a></div>
+      <div class="menu-bar"><a href="#about">Om oss</a><a href="#calender">Arrangementer</a><a href="#contact">Kontakt oss</a><a href="#sponsor">Samarbeidspartner</a><a href="#board">Styret</a><a href="#images">Bilder</a><a href="#press">Presse</a></div>
       <img src="/assets/img/banner.png"/>
     </header>
 
     <main id="content" class="main-content" role="main">
-      <div id="about" class="section about">
+      <span id="about"></span>
+      <div id="about2" class="section about">
         <h2>Om oss</h2>
         <div>
           <p>{{ site.about }}</p>
@@ -25,8 +27,9 @@
           </div>
         </div>
       </div>
+      <span id="calender"></span><span id="contact"></span>
       <div class="section-container">
-        <div id="calender" class="section calender">
+        <div id="calender2" class="section calender">
           <h2>Arrangementer</h2>
           <div class="event">
             <a href="#"><h3>Morro med digitus</h3></a>
@@ -38,7 +41,7 @@
           </div>
           <p><a href="https://www.facebook.com/digitusuio/">Flere arrangementer på vår Facebook-side</a></p>
         </div>
-        <div id="contact" class="section">
+        <div id="contact2" class="section">
           <h2>Kontakt oss</h2>
           <div>
             <div class="links">
@@ -50,7 +53,8 @@
           </div>
         </div>
       </div>
-      <div id="sponsor" class="sponsor">
+      <span id="sponsor"></span>
+      <div id="sponsor2" class="sponsor">
         <div class="section">
           <h2>Vår samarbeidspartner</h2>
           <div>
@@ -66,7 +70,8 @@
           </div>
         </div>
       </div>
-      <div id="board" class="section board">
+      <span id="board"></span>
+      <div id="board2" class="section board">
         <h2>Styret</h2>
         <div class="board-members">
         {% for board_member in site.board_members %}
@@ -78,7 +83,15 @@
         {% endfor %}
         </div>
       </div>
-      <div id="images" class="section images"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
+      <span id="images"></span>
+      <div id="images2" class="section images"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
+      <span id="press"></span>
+      <div class="section">
+        <h2>Presse</h2>
+        {% for press in site.press %}
+        <a href="{{ press.link }}">{{ press.title }}</a><br/>
+        {% endfor %}
+      </div>
     </main>
     <script type="text/javascript">
       function callAjax(url, callback){
@@ -114,6 +127,15 @@
         });
       });
 
+      var moveTo = new MoveTo();
+
+      (function() {
+        var menuItems = document.getElementsByClassName('menu-bar')[0]
+        menuItems = menuItems.children;
+        for (var i = 0; i < menuItems.length; i++) {
+          moveTo.registerTrigger(menuItems[i]);
+        }
+      })();
     </script>
   </body>
 </html>
