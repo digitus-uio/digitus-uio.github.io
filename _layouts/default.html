@@ -79,6 +79,9 @@
             <img src="{{ board_member.img }}" />
             <p>{{ board_member.name }}</p>
             <p class="role">{{ board_member.role }}</p>
+            <div class="board-links">
+              <a href="mailto:{{ board_member.mail }}"><i class="far fa-envelope"></i></a><a href="{{ board_member.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+            </div>
           </div>
         {% endfor %}
         </div>

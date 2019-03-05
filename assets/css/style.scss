@@ -250,3 +250,13 @@ body {
   margin-top: 5px;
   margin-bottom: 0;
 }
+
+.board-links {
+  display: flex;
+}
+
+.board-links a {
+  color: #83949b;
+  margin-left: 5px;
+  margin-right: 5px;
+}
