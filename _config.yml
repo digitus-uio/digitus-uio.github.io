@@ -19,11 +19,11 @@ partner_text: "Lorem Ipsum is simply dummy text of the printing and typesetting 
 
 press: [
   {
-    title: "Digøk på resett.no",
+    title: "Digøk i DN",
     link: "#",
   },
   {
-    title: "Digøk i KK",
+    title: "Digøk i Finansavisen",
     link: "#",
   },
 ]
