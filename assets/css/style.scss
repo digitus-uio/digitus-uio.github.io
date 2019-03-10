@@ -78,13 +78,14 @@ body {
 
 .page-header {
   background-image: linear-gradient(120deg, #005894, #299CD8);
-  padding-bottom: 5rem;
-  padding-top: 0;
+  padding-bottom: 0;
+  padding-top: 2rem;
   background-color: rgba(0,0,0,0);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+  justify-content: space-between;
 }
 
 .page-header h2 {
@@ -105,8 +106,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 16px;
-  margin: 0 0 1rem;
+  margin: 2rem 0 0;
   align-self: flex-end;
 }
 
@@ -129,6 +129,7 @@ body {
   max-width: 550px;
   width: auto;
   height: auto;
+  padding-bottom: 2rem;
 }
 
 .page-header .menu-bar img {
