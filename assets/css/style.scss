@@ -280,6 +280,15 @@ span {
   text-align: center;
 }
 
+label[for="nav-trigger"] {
+  display: none;
+}
+
+.nav-trigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
 @media (max-width: 500px) {
   #about2 {
     margin-top: 25px;
@@ -323,5 +332,30 @@ span {
 
   .page-header img {
     max-width: 100%;
+  }
+
+  .menu-bar {
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    transition: max-height 0.50s ease-in-out;
+  }
+
+  .nav-trigger:checked ~ .menu-bar {
+    max-height: 600px;
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='3' style='fill:rgb(255,255,255);'/><rect y='24' width='30' height='3' style='fill:rgb(255,255,255);'/><rect y='12' width='30' height='3' style='fill:rgb(255,255,255);'/></svg>");
+    background-size: contain;
   }
 }
