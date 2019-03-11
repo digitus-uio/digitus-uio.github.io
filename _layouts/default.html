@@ -89,10 +89,13 @@
       <span id="images"></span>
       <div id="images2" class="section images"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
       <span id="press"></span>
-      <div class="section">
+      <div class="section presse">
         <h2>Presse</h2>
         {% for press in site.press %}
-        <a href="{{ press.link }}">{{ press.title }}</a><br/>
+        <div>
+          <a href="{{ press.link }}">{{ press.title }}</a>
+          <p>{{ press.subtitle }}</p>
+        </div>
         {% endfor %}
       </div>
     </main>
