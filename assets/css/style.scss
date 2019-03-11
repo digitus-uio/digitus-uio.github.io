@@ -89,7 +89,7 @@ span {
   padding-top: 2rem;
   background-color: rgba(0,0,0,0);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
   justify-content: space-between;
@@ -113,13 +113,13 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0 0;
+  margin: 0;
   align-self: flex-end;
 }
 
 .menu-bar a {
   color: white;
-  padding: 0.8rem 0.6rem;
+  padding: 0.8rem 1rem;
   transition: background-color 0.3s ease;
 
 }
@@ -136,7 +136,7 @@ span {
   max-width: 550px;
   width: auto;
   height: auto;
-  padding-bottom: 3rem;
+  align-self: flex-start;
 }
 
 .page-header .menu-bar img {
