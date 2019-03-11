@@ -19,19 +19,9 @@ partner_text: "Lorem Ipsum is simply dummy text of the printing and typesetting 
 
 press: [
   {
-    title: "Knallhard kamp om studieplassene",
-    subtitle: "Dagens Næringsliv, 19. juli 2017",
-    link: "https://www.dn.no/utdannelse/samordna-opptak/nils-martin-stolen/julie-eldoy/knallhard-kamp-om-it-studieplassene/2-1-127101",
-  },
-  {
     title: "Her er nåløyet trangest",
     subtitle: "Dagens Næringsliv, 19. juli 2018",
     link: "https://www.dn.no/utdannelse/samordna-opptak/studieretning/her-er-naloyet-trangest/2-1-381991",
-  },
-  {
-    title: "“Alle” vil til it-studier",
-    subtitle: "Dagens Næringsliv, 19. april 2018",
-    link: "https://www.dn.no/utdannelse/samordna-opptak/uio/samordna/alle-vil-til-it-studier/2-1-317669",
   },
   {
     title: "I fjor fikk Eivinds studie så mange søkere at de måtte doble kapasiteten.",
@@ -42,6 +32,16 @@ press: [
     title: "Fremtidens leder",
     subtitle: "UiO.no, 22. juni 2018",
     link: "https://www.dn.no/utdannelse/samordna-opptak/studieretning/her-er-naloyet-trangest/2-1-381991",
+  },
+  {
+    title: "“Alle” vil til it-studier",
+    subtitle: "Dagens Næringsliv, 19. april 2018",
+    link: "https://www.dn.no/utdannelse/samordna-opptak/uio/samordna/alle-vil-til-it-studier/2-1-317669",
+  },
+  {
+    title: "Knallhard kamp om studieplassene",
+    subtitle: "Dagens Næringsliv, 19. juli 2017",
+    link: "https://www.dn.no/utdannelse/samordna-opptak/nils-martin-stolen/julie-eldoy/knallhard-kamp-om-it-studieplassene/2-1-127101",
   },
   {
     title: "Fremtidens ledere har solid digital kompetanse",
