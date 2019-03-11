@@ -303,4 +303,25 @@ span {
   .board-member {
     min-width: 100px;
   }
+
+  .main-content h2 {
+    font-size: 25px;
+  }
+
+  .section-container {
+    flex-direction: column;
+    margin: 0 4rem;
+  }
+
+  #sponsor2 {
+    margin: 20px 4rem;
+  }
+
+  .section-container .section {
+    margin: 20px 0;
+  }
+
+  .page-header img {
+    max-width: 100%;
+  }
 }
