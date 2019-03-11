@@ -9,8 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.0/moveTo.min.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <header class="page-header" role="banner">
@@ -20,7 +18,7 @@
 
     <main id="content" class="main-content" role="main">
       <span id="about"></span>
-      <div id="about2" class="section about" data-aos="zoom-in-up">
+      <div id="about2" class="section about">
         <h2>Om oss</h2>
         <div>
           <p>{{ site.about }}</p>
@@ -31,7 +29,7 @@
       </div>
       <span id="calender"></span><span id="contact"></span>
       <div class="section-container">
-        <div id="calender2" class="section calender" data-aos="zoom-in-up">
+        <div id="calender2" class="section calender">
           <h2>Arrangementer</h2>
           <div class="event">
             <a href="#"><h3>Morro med digitus</h3></a>
@@ -43,7 +41,7 @@
           </div>
           <p><a href="https://www.facebook.com/digitusuio/">Flere arrangementer på vår Facebook-side</a></p>
         </div>
-        <div id="contact2" class="section" data-aos="zoom-in-up">
+        <div id="contact2" class="section">
           <h2>Kontakt oss</h2>
           <div>
             <div class="links">
@@ -56,7 +54,7 @@
         </div>
       </div>
       <span id="sponsor"></span>
-      <div id="sponsor2" class="sponsor" data-aos="zoom-in-up">
+      <div id="sponsor2" class="sponsor">
         <div class="section">
           <h2>Vår samarbeidspartner</h2>
           <div>
@@ -73,7 +71,7 @@
         </div>
       </div>
       <span id="board"></span>
-      <div id="board2" class="section board" data-aos="zoom-in-up">
+      <div id="board2" class="section board">
         <h2>Styret</h2>
         <div class="board-members">
         {% for board_member in site.board_members %}
@@ -89,9 +87,9 @@
         </div>
       </div>
       <span id="images"></span>
-      <div id="images2" class="section images" data-aos="zoom-in-up"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
+      <div id="images2" class="section images"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
       <span id="press"></span>
-      <div class="section presse" data-aos="zoom-in-up">
+      <div class="section presse">
         <h2>Presse</h2>
         {% for press in site.press %}
         <div>
@@ -122,7 +120,6 @@
           if(i < {{ site.instagram_limit }}) {
             document.getElementsByClassName('images-holder')[0].innerHTML += '<a href="' + image.link + '"><img src="' + image.images.low_resolution.url + '"/>';
           }
-          AOS.init();
           i++;
         });
 
@@ -145,8 +142,6 @@
           moveTo.registerTrigger(menuItems[i]);
         }
       })();
-
-      AOS.init();
     </script>
   </body>
 </html>
