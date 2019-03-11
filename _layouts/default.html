@@ -20,7 +20,7 @@
 
     <main id="content" class="main-content" role="main">
       <span id="about"></span>
-      <div id="about2" class="section about">
+      <div id="about2" class="section about" data-aos="zoom-in-up">
         <h2>Om oss</h2>
         <div>
           <p>{{ site.about }}</p>
@@ -89,7 +89,7 @@
         </div>
       </div>
       <span id="images"></span>
-      <div id="images2" class="section images"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
+      <div id="images2" class="section images" data-aos="zoom-in-up"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
       <span id="press"></span>
       <div class="section presse">
         <h2>Presse</h2>
@@ -122,6 +122,7 @@
           if(i < {{ site.instagram_limit }}) {
             document.getElementsByClassName('images-holder')[0].innerHTML += '<a href="' + image.link + '"><img src="' + image.images.low_resolution.url + '"/>';
           }
+          AOS.init();
           i++;
         });
 
