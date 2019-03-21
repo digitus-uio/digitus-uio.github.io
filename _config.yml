@@ -7,7 +7,7 @@ theme: jekyll-theme-cayman
 contact_board: "styret@digitusuio.no"
 contact_leader: "leder@digitusuio.no"
 
-about: "Digitus er linjeforeningen for Informatikk: digital økonomi og ledelse (Digøk) ved Universitetet i Oslo. Linjeforeningen ble etablert høsten 2017, da bachelorprogrammet gikk for første gang. Interessen for studiet har vært stor fra første stund, og var ved sin oppstart i 2017 det studiet i landet med flest søkere per plass. Bachelorprogrammet har 140 studiepoeng i obligatoriske emner, hvorav 2/3 av dem er informatikkemner. Resten av de obligatoriske emnene er forretningsemner og i tillegg har man 40 studiepoeng i frie emner hvor man kan velge fritt blant fagene UiO tilbyr.  Det utvikles for tiden en master som blir klar til høsten 2020."
+about: "Digitus er linjeforeningen for Informatikk: digital økonomi og ledelse (Digøk) ved Universitetet i Oslo. Linjeforeningen ble etablert høsten 2017, da bachelorprogrammet gikk for første gang. Interessen for studiet har vært stor fra første stund, og var ved sin oppstart i 2017 det studiet i landet med flest søkere per plass. HER (https://www.uio.no/studier/program/informatikk-ledelse/oppbygging/) kan du lese mer om bachelorsprogrammets oppbygning. Det utvikles for tiden en master som blir klar til høsten 2020."
 about_image: "https://i.imgur.com/POipFae.jpg"
 
 
@@ -15,7 +15,7 @@ instagram_limit: 6
 
 partner_url: "https://www.bdo.no/nb-no/home-no"
 partner_logo: "https://i.imgur.com/gagS2wK.jpg"
-partner_text: "Våren 2019 fikk Digitus BDO som samarbeidspartner. BDO er ledende innen revisjon, regnskap, rådgivning og advokattjenester i Norge. BDO i Norge har over 1500 ansatte og mer enn 70 kontorer over hele landet. Kundene deres er alt fra store, verdensomspennende selskaper til små og mellomstore bedrifter. De har kunder fra de fleste bransjer i både privat og offentlig sektor. Internasjonalt er BDO til stede i 164 land og teller i overkant av 77 000 ansatte."
+partner_text: "Våren 2019 fikk Digitus BDO som samarbeidspartner. BDO er ledende innen revisjon, regnskap, rådgivning og advokattjenester i Norge. BDO har over 1500 ansatte i Norge og mer enn 70 kontorer over hele landet. Kundene deres er alt fra store, verdensomspennende selskaper til små og mellomstore bedrifter. De har kunder fra de fleste bransjer i både privat og offentlig sektor. Internasjonalt er BDO til stede i 164 land og teller i overkant av 77 000 ansatte."
 
 press: [
   {
