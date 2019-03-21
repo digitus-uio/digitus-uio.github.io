@@ -35,7 +35,7 @@
       <div id="about2" class="section about">
         <h2>Om oss</h2>
         <div>
-          <p>{{ site.about }}</p>
+          <p>{{ site.about | markdownify }}</p>
           <div class="img-cont-2">
             <img src="{{ site.about_image }}"/>
           </div>
