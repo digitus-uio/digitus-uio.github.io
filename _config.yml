@@ -7,7 +7,7 @@ theme: jekyll-theme-cayman
 contact_board: "styret@digitusuio.no"
 contact_leader: "leder@digitusuio.no"
 
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+about: "Digitus er linjeforeningen for Informatikk: digital økonomi og ledelse (Digøk) ved Universitetet i Oslo. Linjeforeningen ble etablert høsten 2017, da bachelorprogrammet gikk for første gang. Interessen for studiet har vært stor fra første stund, og var ved sin oppstart i 2017 det studiet i landet med flest søkere per plass. Bachelorprogrammet har 140 studiepoeng i obligatoriske emner, hvorav 2/3 av dem er informatikkemner. Resten av de obligatoriske emnene er forretningsemner og i tillegg har man 40 studiepoeng i frie emner hvor man kan velge fritt blant fagene UiO tilbyr.  Det utvikles for tiden en master som blir klar til høsten 2020."
 about_image: "https://i.imgur.com/POipFae.jpg"
 
 
@@ -15,7 +15,7 @@ instagram_limit: 6
 
 partner_url: "https://www.bdo.no/nb-no/home-no"
 partner_logo: "https://i.imgur.com/gagS2wK.jpg"
-partner_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+partner_text: "Våren 2019 fikk Digitus BDO som samarbeidspartner. BDO er ledende innen revisjon, regnskap, rådgivning og advokattjenester i Norge. BDO i Norge har over 1500 ansatte og mer enn 70 kontorer over hele landet. Kundene deres er alt fra store, verdensomspennende selskaper til små og mellomstore bedrifter. De har kunder fra de fleste bransjer i både privat og offentlig sektor. Internasjonalt er BDO til stede i 164 land og teller i overkant av 77 000 ansatte."
 
 press: [
   {
@@ -55,63 +55,63 @@ board_members: [
     name: "Elena Snellingen",
     img: "https://i.imgur.com/13RwoDl.jpg",
     role: "Leder",
-    mail: "example@example.com",
-    linkedin: "https://linkedin.com/",
+    mail: "leder@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/elena-snellingen-61ba43137/",
   },
   {
     name: "Martine Karlsen",
     img: "https://i.imgur.com/irkkOZA.jpg",
     role: "Nestleder",
-    mail: "example@example.com",
-    linkedin: "https://linkedin.com/",
+    mail: "nestleder@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/martine-karlsen-436166183/?fbclid=IwAR0_vY6zUjQmPKc3WrCUtREWO6SMLhyOBy6vAtQF2lMtR73i7haCbFMnjSo",
   },
   {
       name: "Thea Petrine Hammer",
       img: "https://i.imgur.com/nqN1ULd.jpg",
       role: "Økonomiansvarlig",
-      mail: "example@example.com",
-      linkedin: "https://linkedin.com/",
+      mail: "thea@digitusuio.no",
+      linkedin: "https://www.linkedin.com/in/thea-petrine-hammer-799ba4155/",
   },
   {
       name: "Håkon Kringstad",
       img: "https://i.imgur.com/W5oAksT.jpg",
       role: "Eventansvarlig",
-      mail: "example@example.com",
-      linkedin: "https://linkedin.com/",
+      mail: "hakon@digitusuio.no",
+      linkedin: "https://www.linkedin.com/in/h%C3%A5kon-lie-kringstad-576a25173/",
   },
   {
       name: "Ludvig Oftedal Vinje",
       img: "https://i.imgur.com/uNKwGiC.jpg",
       role: "Bedriftskontakt",
-      mail: "example@example.com",
-      linkedin: "https://linkedin.com/",
+      mail: "ludvig@digitusuio.no",
+      linkedin: "https://www.linkedin.com/in/ludvig-oftedal-vinje-490018162/",
   },
   {
       name: "Cecilie Isdahl",
       img: "https://i.imgur.com/ezLKcGh.jpg",
       role: "Webansvarlig",
-      mail: "example@example.com",
-      linkedin: "https://linkedin.com/",
+      mail: "cecilie@digitusuio.no",
+      linkedin: "https://www.linkedin.com/in/cecilieisdahl/",
   },
   {
       name: "Julie Eldøy",
       img: "https://i.imgur.com/aFoKTs4.jpg",
       role: "Seniormedlem",
-      mail: "example@example.com",
-      linkedin: "https://linkedin.com/",
+      mail: "julie@digitusuio.no",
+      linkedin: "https://www.linkedin.com/in/julieeldoy/",
   },
   {
       name: "Johannes Telle",
       img: "https://i.imgur.com/0T0Jfae.jpg",
       role: "Styremedlem",
-      mail: "example@example.com",
-      linkedin: "https://linkedin.com/",
+      mail: "johannes@digitusuio.no",
+      linkedin: "https://www.linkedin.com/in/johannes-telle-852735182/",
   },
   {
       name: "Ingeborg Steel",
       img: "https://i.imgur.com/s689jSD.jpg",
       role: "Styremedlem",
-      mail: "example@example.com",
+      mail: "ingeborg@digitusuio.no",
       linkedin: "https://linkedin.com/",
   },
 ]
