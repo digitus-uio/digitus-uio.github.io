@@ -127,7 +127,7 @@
         xmlhttp.send();
       }
 
-      callAjax('https://cors-anywhere.herokuapp.com/https://api.instagram.com/v1/users/self/media/recent/?access_token=5889155613.7519461.9110620ffed1489c94fc0c38763186df', function(data) {
+      callAjax('https://api.instagram.com/v1/users/self/media/recent/?access_token=5889155613.7519461.9110620ffed1489c94fc0c38763186df', function(data) {
         data = JSON.parse(data)['data'];
         var i = 0;
         data.forEach(function(image) {
