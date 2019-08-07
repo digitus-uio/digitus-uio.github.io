@@ -132,7 +132,7 @@
         var i = 0;
         data.forEach(function(image) {
           if(i < {{ site.instagram_limit }}) {
-            document.getElementsByClassName('images-holder')[0].innerHTML += '<a href="' + image.link + '"><img src="https://cors-anywhere.herokuapp.com/' + image.images.low_resolution.url + '"/>';
+            document.getElementsByClassName('images-holder')[0].innerHTML += '<a href="' + image.link + '"><img src="' + image.images.low_resolution.url + '"/>';
           }
           i++;
         });
