@@ -44,6 +44,8 @@
       <span id="calender"></span><span id="contact"></span>
       <div class="section-container">
         <div id="calender2" class="section calender">
+          <h2>Arrangementer</h2>
+          <div id="calendar3"></div>
           <p><a href="https://www.facebook.com/digitusuio/">Flere arrangementer på vår Facebook-side</a></p>
         </div>
         <div id="contact2" class="section">
@@ -134,7 +136,7 @@
         data = JSON.parse(data);
 
         data.forEach(function(event) {
-          document.getElementsById('calender2').innerHTML = '<div class="event"><div class="event"><a href="' + event.url +'/"><h2>' + event.title +'</h2></a></div><p>' + event.date_time + ', ' + event.place + '</p></div>' + document.getElementsById('calender2').innerHTML;
+          document.getElementsById('calendar3').innerHTML += '<div class="event"><div class="event"><a href="' + event.url +'/"><h2>' + event.title +'</h2></a></div><p>' + event.date_time + ', ' + event.place + '</p></div>';
         });
       });
 
