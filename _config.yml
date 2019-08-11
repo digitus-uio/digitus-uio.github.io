@@ -95,14 +95,14 @@ board_members: [
   },
   {
       name: "Morten Østigård",
-      img: "https://imgur.com/Xoeujpt",
+      img: "https://imgur.com/Xoeujpt.jpg",
       role: "Seniormedlem",
       mail: "morten@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/mortenostigard/",
   },
   {
       name: "Peter Kristiansen",
-      img: "https://imgur.com/rOttilR",
+      img: "https://imgur.com/rOttilR.jpg",
       role: "Styremedlem",
       mail: "peter@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/peter-kristiansen-a64041170/",
