@@ -143,7 +143,7 @@
         data = JSON.parse(data)['data'];
 
         data.forEach(function(event) {
-          document.getElementsByClassName('calender')[0].innerHTML += '<div class="event"><div class="event"><a href="https://www.facebook.com/events/' + event.id +'/"><h2>' + event.name +'</h2></a></div><p>' + event.start_time + ', ' + event.place + '</p></div>'
+          document.getElementsByClassName('calender')[0].innerHTML += '<div class="event"><div class="event"><a href="' + event.url +'/"><h2>' + event.title +'</h2></a></div><p>' + event.date_time + ', ' + event.place + '</p></div>'
         });
       });
 
