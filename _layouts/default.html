@@ -136,7 +136,7 @@
         data = JSON.parse(data);
 
         data.forEach(function(event) {
-          document.getElementsById('calendar3').innerHTML += '<div class="event"><div class="event"><a href="' + event.url +'/"><h2>' + event.title +'</h2></a></div><p>' + event.date_time + ', ' + event.place + '</p></div>';
+          document.getElementById('calendar3').innerHTML += '<div class="event"><div class="event"><a href="' + event.url +'/"><h2>' + event.title +'</h2></a></div><p>' + event.date_time + ', ' + event.place + '</p></div>';
         });
       });
 
