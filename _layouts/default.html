@@ -144,9 +144,9 @@
           if(new Date() > date) {
             break;
           }
-          var dayMap = ['Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør', 'Søn'];
+          var dayMap = ['Søn', 'Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør'];
           var monthMap = ['jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'des'];
-          document.getElementById('calendar3').innerHTML += '<div class="event"><a href="' + event.url +'"><h3>' + event.title +'</h3></a></div><p>' + dayMap[date.getDay() - 1] + ' ' + date.getDate() + '. ' + monthMap[date.getMonth()] + ', ' + event.place + '</p></div>';
+          document.getElementById('calendar3').innerHTML += '<div class="event"><a href="' + event.url +'"><h3>' + event.title +'</h3></a></div><p>' + dayMap[date.getDay()] + ' ' + date.getDate() + '. ' + monthMap[date.getMonth()] + ', ' + event.place + '</p></div>';
         });
       });
 
