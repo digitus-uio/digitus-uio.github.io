@@ -143,7 +143,7 @@
           var date = new Date(event.date_time);
           var dayMap = ['Søn', 'Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør'];
           var monthMap = ['jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'des'];
-          if(new Date() > date) {
+          if(new Date() < date) {
             document.getElementById('calendar3').innerHTML += '<div class="event"><a href="' + event.url +'"><h3>' + event.title +'</h3></a></div><p>' + dayMap[date.getDay()] + ' ' + date.getDate() + '. ' + monthMap[date.getMonth()] + ', ' + event.place + '</p></div>';
           }
         });
