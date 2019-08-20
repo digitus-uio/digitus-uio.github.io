@@ -135,6 +135,10 @@
       callAjax('https://us-central1-ifi-tracking.cloudfunctions.net/function-1', function(data) {
         data = JSON.parse(data);
 
+        data.sort(function(a,b){
+          return new Date(b.date_time) - new Date(a.date_time);
+        });
+
         data.forEach(function(event) {
           var date = new Date(event.date_time);
           var dayMap = ['Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør', 'Søn'];
