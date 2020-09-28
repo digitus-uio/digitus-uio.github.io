@@ -8,7 +8,7 @@ contact_board: "styret@digitusuio.no"
 contact_leader: "leder@digitusuio.no"
 
 about: "Digitus er linjeforeningen for Informatikk: digital økonomi og ledelse (Digøk) ved Universitetet i Oslo. Linjeforeningen ble etablert høsten 2017 da bachelorprogrammet gikk for første gang. Interessen for studiet har vært stor fra første stund, og var ved sin oppstart i 2017 det studiet i landet med flest søkere per plass. [HER](https://www.uio.no/studier/program/informatikk-ledelse/oppbygging/) kan du lese mer om bachelorsprogrammets oppbygning. Det utvikles for tiden en master som blir klar til høsten 2020."
-about_image: "assets/styrebilder/Felles trapp 1.jpeg"
+about_image: "assets/pictures/Felles trapp 1.jpeg"
 
 
 instagram_limit: 6
@@ -53,63 +53,63 @@ press: [
 board_members: [
   {
     name: "Ingeborg Steel",
-    img: "assets/styrebilder/Ingeborg.jpeg",
+    img: "assets/pictures/Ingeborg.jpeg",
     role: "Leder",
     mail: "leder@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/ingeborgsteel/",
   },
   {
     name: "Mats Bjerke Larsen",
-    img: "assets/styrebilder/Mats.jpeg",
+    img: "assets/pictures/Mats.jpeg",
     role: "Nestleder",
     mail: "nestleder@digitusuio.no",
     linkedin: "hhttps://www.linkedin.com/in/mats-bjerke-larsen-ab353b146/",
   },
   {
       name: "Peter Kristiansen",
-      img: "assets/styrebilder/Peter.jpeg",
+      img: "assets/pictures/Peter.jpeg",
       role: "Økonomiansvarlig",
       mail: "okonomi@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/peter-kristiansen-a64041170/",
   },
   {
       name: "Kristine Jun",
-      img: "assets/styrebilder/Kristine.jpeg",
+      img: "assets/pictures/Kristine.jpeg",
       role: "Eventansvarlig",
       mail: "event@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/kristine-jun-gr%C3%B8ttland-85a8a3181/",
   },
   {
       name: "Veronica Risvik",
-      img: "assets/styrebilder/Veronica.jpeg",
+      img: "assets/pictures/Veronica.jpeg",
       role: "Bedriftskontakt",
       mail: "bedrift@digitusuio.no",
       linkedin: "https://www.linkedin.com/company/digitusuio/",
   },
   {
       name: "Hanne Foss",
-      img: "assets/styrebilder/Hanne 2.jpeg",
+      img: "assets/pictures/Hanne 2.jpeg",
       role: "PR-ansvarlig",
       mail: "pr@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/hanne-celine-foss/",
   },
   {
       name: "Olav Moseng",
-      img: "assets/styrebilder/Olav 1.jpeg",
+      img: "assets/pictures/Olav 1.jpeg",
       role: "Seniormedlem",
       mail: "senior@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/olavmoseng/",
   },
   {
       name: "Anne Elise Dæhlen",
-      img: "assets/styrebilder/Anna Elise.jpeg",
+      img: "assets/pictures/Anna Elise.jpeg",
       role: "Styremedlem",
       mail: "styremedlem1@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/annaelised%C3%A6hlen/",
   },
   {
       name: "Magnus Kalland",
-      img: "assets/styrebilder/Magnus.jpeg",
+      img: "assets/pictures/Magnus.jpeg",
       role: "Styremedlem",
       mail: "styremedlem2@digitusuio.no",
       linkedin: "https://www.linkedin.com/company/digitusuio/",
