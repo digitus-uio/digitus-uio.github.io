@@ -73,7 +73,7 @@ board_members: [
       linkedin: "https://www.linkedin.com/in/peter-kristiansen-a64041170/",
   },
   {
-      name: "Kristine Jun",
+      name: "Kristine Grøttland",
       img: "assets/pictures/Kristine.jpeg",
       role: "Eventansvarlig",
       mail: "event@digitusuio.no",
@@ -94,14 +94,14 @@ board_members: [
       linkedin: "https://www.linkedin.com/in/hanne-celine-foss/",
   },
   {
-      name: "Olav Moseng",
+      name: "Olav H. Moseng",
       img: "assets/pictures/Olav 1.jpeg",
       role: "Seniormedlem",
       mail: "senior@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/olavmoseng/",
   },
   {
-      name: "Anne Elise Dæhlen",
+      name: "Anna Elise Dæhlen",
       img: "assets/pictures/Anna Elise.jpeg",
       role: "Styremedlem",
       mail: "styremedlem1@digitusuio.no",
