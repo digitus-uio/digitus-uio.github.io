@@ -63,7 +63,7 @@ board_members: [
     img: "assets/pictures/Mats.jpeg",
     role: "Nestleder",
     mail: "nestleder@digitusuio.no",
-    linkedin: "hhttps://www.linkedin.com/in/mats-bjerke-larsen-ab353b146/",
+    linkedin: "https://www.linkedin.com/in/mats-bjerke-larsen-ab353b146/",
   },
   {
       name: "Peter Kristiansen",
@@ -80,11 +80,11 @@ board_members: [
       linkedin: "https://www.linkedin.com/in/kristine-jun-gr%C3%B8ttland-85a8a3181/",
   },
   {
-      name: "Veronica Risvik",
+      name: "Veronica Norum Hofsøy",
       img: "assets/pictures/Veronica.jpeg",
       role: "Bedriftskontakt",
       mail: "bedrift@digitusuio.no",
-      linkedin: "https://www.linkedin.com/company/digitusuio/",
+      linkedin: "https://www.linkedin.com/in/veronica-norum-hofs%C3%B8y-77a4591a3/",
   },
   {
       name: "Hanne Foss",
@@ -112,6 +112,6 @@ board_members: [
       img: "assets/pictures/Magnus.jpeg",
       role: "Styremedlem",
       mail: "styremedlem2@digitusuio.no",
-      linkedin: "https://www.linkedin.com/company/digitusuio/",
+      linkedin: "https://www.linkedin.com/in/magnus-helle-kalland-925a39131/",
   },
 ]
