@@ -1,108 +1,63 @@
-# The Cayman theme
+# Digitus
 
 [![Build Status](https://travis-ci.org/pages-themes/cayman.svg?branch=master)](https://travis-ci.org/pages-themes/cayman) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
 
-*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/cayman), or even [use it today](#usage).*
+*Bruker [Cayman](https://github.com/pages-themes/cayman), et Jekyll theme for GitHub Pages.*
 
-![Thumbnail of Cayman](thumbnail.png)
+>**Det viktigste** med disse nettsidene er å holde informasjonen up to date. De kan enkelt oppdateres i `_config.yml`:
 
-## Usage
+1. Klon ned repositoriet: `git clone https://github.com/digitus-uio/digitus-uio.github.io.git`.
+2. Åpne `_config.yml` (se [Informasjon](#informasjon) for forklaring av den fila) i en teksteditor, gjør de nødvendige endringene og lagre.
+3. `cd` til der du klonet repoet, `git commit -a` og `git push` for å publisere endringene.
 
-To use the Cayman theme:
+## Utvikling
+For å gjøre designendringer på nettsiden, er det nyttig å kjøre det lokalt:
+1. Kjør `script/bootstrap` i rotmappa til repoet for å installere nødvendige dependencies.
+   1. På mac kan man få feilmelding: `While executing gem ...` ([Se stack overflow løsning](https://github.com/digitus-uio/digitus-uio.github.io.git)). Tving det gjennom med `sudo script/bootstrap`.
+2. Kjør `bundle exec jekyll serve` for å starte serveren med forhåndsvisning.
+3. Besøk `localhost:4000` for å åpne forhåndsvisningen.
 
-1. Add the following to your site's `_config.yml`:
+NB: Er ikke hot reload, så må refreshe siden for hver endring.
 
-    ```yml
-    theme: jekyll-theme-cayman
-    ```
+NB2: Hvis endringer blir gjort i `config`, må man avslutte bundle og restarte fra punkt 2.
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+### Tilpasning
 
-## Customizing
+#### Informasjon
 
-### Configuration variables
-
-Cayman will respect the following variables, if set in your site's `_config.yml`:
-
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
-
-Additionally, you may choose to set the following optional variables:
+Alle endringer på den informasjonen som blir vist på nettsiden settes i de gitte variablene i `_config.yml`.
+De viktigste å endre jevnlig er styremedlemmene som ligger i en array under `board-members`:
 
 ```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+board_members: [
+   {
+      name: "[navn på styremedlem]"
+      img: "[source til bilde]"
+      role: "[rolle]"
+      mail: "[mail]"
+      linkedin: "[url til linkedin]"
+   },
+]
 ```
 
-### Stylesheet
+I tillegg må bildet med tidslinjen over semesterets arrangementer oppdateres. Dette må både lastes opp til github i `assets/pictures`, og linken må oppdateres i `config`:
+```yml
+events: "[source]"
+```
 
-If you'd like to add your own custom styles:
+Bilder som blir vist på nettsiden ligger nå lagret i `assets/pictures`, og har dermed sourcen `"assets/pictures/bildenavn.jpg"`{:.yml}
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+Følgende valgfrie variabler kan også bli satt (men er ikke så viktige for oss):
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+```yml
+show_downloads: ["true" eller "false" for å indikere om en download URL blir gitt]
+google_analytics: [Google Analytics tracking ID]
+```
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+#### Design
 
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. [Copy the original template](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/cayman/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Cayman theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/cayman`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+Designendringer gjøres i `/_layouts/default.html` (strukturelle endringer) og i `/assets/css/style.scss` (styling).
 
 ### Running tests
 
