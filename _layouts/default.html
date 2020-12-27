@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,29 +26,13 @@
 
     <!-- Instagram feed code -->
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '707138606855926');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=707138606855926&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <a href="#about" class="logo"><img src="/assets/img/logo_d.png" alt="Digitus logo"/></a>
-      <div class="menu-bar">
+    <header class="header" role="banner">
+      <a href="" class="logo"><img class="logo" src="/assets/img/logo_d.png" alt="Digitus logo"/></a>
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label class="menu-icon" for="nav-trigger"><span class="navicon"></span></label>
+      <div class="menu">
         <a href="#calendar-span">ARRANGEMENTER</a>
         <a href="#sponsor-span">SAMARBEIDSPARTNER</a>
         <a href="#board-span">STYRET</a>
@@ -59,9 +43,10 @@
       <span id="about-span"></span>
       <div id="about" class="section about">
         <h1>Digitus</h1>
+        <h2>Linjeforeningen for Digøk</h2>
         <div>
           <p>{{ site.about | markdownify }}</p>
-          <a href="google.com">Her finner du vedtektene våre.</a>
+          <a href="/vedtekter" style="font-weight: bold">Her finner du vedtektene våre.</a>
         </div>
       </div>
       <span id="images-span"></span>
@@ -71,8 +56,8 @@
       <span id="calendar-span"></span>
       <div id="calendar" class="section calendar">
         <h2>Arrangementer</h2>
-        <p>Vi vil gjerne ha ris, ros og arrangementsforslag! <a style="font-weight:bold" href="www.google.com">Send inn ditt her.</a></p>
-        <img src="{{ site.events }}"/>
+        <p>{{ site.events_desc }}</p>
+        <img src="{{ site.events }}" alt="event plan"/>
         <p><a href="https://www.facebook.com/digitusuio/">Flere arrangementer på vår Facebook-side.</a></p>
       </div>
       <span id="sponsor-span"></span>
@@ -81,7 +66,7 @@
         <div>
           <p>{{ site.partner_text }}</p>
           <a href="{{ site.partner_url }}" target="_blank">
-            <img src="{{ site.partner_logo }}"/>
+            <img src="{{ site.partner_logo }}" alt="partner logo"/>
           </a>
         </div>
       </div>
@@ -91,12 +76,12 @@
         <div class="board-members">
         {% for board_member in site.board_members %}
           <div class="board-member">
-            <div class="board-picture">
+            <div class="portrait">
               <img src="{{ board_member.img }}" />
             </div>
             <p>{{ board_member.name }}</p>
             <p class="role">{{ board_member.role }}</p>
-            <div class="board-links">
+            <div class="links">
               <a href="mailto:{{ board_member.mail }}"><i class="far fa-envelope"></i></a><a href="{{ board_member.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
@@ -115,8 +100,8 @@
       </div>
     </main>
     <footer class="page-footer">
-      <img src="assets/img/logo.png"/>
-      <p>Kontakt oss: <a href="mailto:styret@digitusuio.no">styret@digitusuio.no</a></p>
+      <img src="/assets/img/logo.png" alt="logo"/>
+      <p>Kontakt oss:<a href="mailto:styret@digitusuio.no">styret@digitusuio.no</a></p>
       <div class="icon-bar">
         <a href="https://www.facebook.com/digitusuio/">
           <img src="/assets/img/facebook.svg" alt="facebook"/>
@@ -175,9 +160,8 @@
       var moveTo = new MoveTo();
 
       (function() {
-        var menuItems = document.getElementsByClassName('menu-bar')[0]
+        var menuItems = document.getElementsByClassName('menu')[0]
         menuItems = menuItems.children;
-        console.log(menuItems);
         for (var i = 0; i < menuItems.length; i++) {
           moveTo.registerTrigger(menuItems[i]);
         }
