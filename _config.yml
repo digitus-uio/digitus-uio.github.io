@@ -7,7 +7,7 @@ theme: jekyll-theme-cayman
 contact_board: "styret@digitusuio.no"
 contact_leader: "leder@digitusuio.no"
 
-about: "Digitus er linjeforeningen for studentene på Informatikk: digital økonomi og ledelse (Digøk) ved Universitetet i Oslo. Vi arrangerer faglige og sosiale arrangementer for studentene våre, og tar vare på deres interesser på Ifi."
+about: "Digitus er linjeforeningen for studentene på <a href='https://www.uio.no/studier/program/informatikk-ledelse/'>Informatikk: Digital økonomi og ledelse</a> (Digøk) ved Universitetet i Oslo. Vi arrangerer faglige og sosiale arrangementer for studentene våre, og tar vare på deres interesser på Ifi."
 about_image: "assets/pictures/Felles trapp 1.jpeg"
 
 instagram_limit: 6
@@ -16,6 +16,7 @@ partner_url: "https://www.bdo.no/nb-no/home-no"
 partner_logo: "assets/img/bdo.jpg"
 partner_text: "Våren 2019 fikk vi BDO som samarbeidspartner. BDO er ledende innen revisjon, regnskap, rådgivning og advokattjenester i Norge. De har over 1500 ansatte i Norge og mer enn 70 kontorer over hele landet. Kundene deres er alt fra store, verdensomspennende selskaper til små og mellomstore bedrifter. BDO har kunder fra de fleste bransjer i både privat og offentlig sektor. Internasjonalt er BDO til stede i 164 land og teller i overkant av 77 000 ansatte."
 
+events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/SUdA15MJCoLbkpNv8'>Send inn ditt her!</a>"
 events: "assets/pictures/tidslinjeh20.png"
 
 press: [
