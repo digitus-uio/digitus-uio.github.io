@@ -77,7 +77,7 @@
         {% for board_member in site.board_members %}
           <div class="board-member">
             <div class="portrait">
-              <img src="{{ board_member.img }}" />
+              <img src="{{ board_member.img }}"  alt="{{ board_member.name }}"/>
             </div>
             <p>{{ board_member.name }}</p>
             <p class="role">{{ board_member.role }}</p>

@@ -3,9 +3,9 @@
 
 @import 'jekyll-theme-cayman';
 :root{
-  --primary: #299CD8;
-  --secondary: #4D8BD4;
-  --gradient-end: #8961B3;
+  --primary: #299BD7;
+  --secondary: #4D8AD3;
+  --gradient-end: #8961B2;
   --contrast: #9C4895;
   --text-faded: #83949b;
 }
@@ -202,7 +202,7 @@ span {
 
 .board-member .portrait img {
   width: 150px;
-  border-radius: 0%;
+  border-radius: 0;
 }
 
 .board-member .links {
