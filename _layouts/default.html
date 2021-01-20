@@ -46,7 +46,8 @@
         <h2>Linjeforeningen for Digøk</h2>
         <div>
           <p>{{ site.about | markdownify }}</p>
-          <a href="/vedtekter" style="font-weight: bold">Her finner du vedtektene våre.</a>
+          <!-- fjern target="_blank" når vi får egen underside, ryddig å lage ny fane når vi linker til en doc -->
+          <a target="_blank" href="https://docs.google.com/document/d/1TDxy3Tnwz5i5h2MsBf87YpEE5Cc_uvZooHyf5KKZelE/edit?usp=sharing" style="font-weight: bold">Her finner du vedtektene våre.</a>
         </div>
       </div>
       <span id="images-span"></span>
@@ -58,7 +59,7 @@
         <h2>Arrangementer</h2>
         <p>{{ site.events_desc }}</p>
         <img src="{{ site.events }}" alt="event plan"/>
-        <p><a href="https://www.facebook.com/digitusuio/">Datoer og innhold kan endre seg. Følg med på vår Facebook-side for oppdatert info.</a></p>
+        <p><a href="https://www.facebook.com/digitusuio/" target="_blank" >Datoer og innhold kan endre seg. Følg med på vår Facebook-side for oppdatert info.</a></p>
       </div>
       <span id="sponsor-span"></span>
       <div id="sponsor" class="section sponsor">
@@ -93,7 +94,7 @@
         <h2>Nyheter</h2>
         {% for press in site.press %}
         <div>
-          <a href="{{ press.link }}">{{ press.title }}</a>
+          <a href="{{ press.link }}" target="_blank" >{{ press.title }}</a>
           <p>{{ press.subtitle }}</p>
         </div>
         {% endfor %}
@@ -103,13 +104,13 @@
       <img src="/assets/img/logo.png" alt="logo"/>
       <p>Kontakt oss:<a href="mailto:styret@digitusuio.no">styret@digitusuio.no</a></p>
       <div class="icon-bar">
-        <a href="https://www.facebook.com/digitusuio/">
+        <a href="https://www.facebook.com/digitusuio/" target="_blank" >
           <img src="/assets/img/facebook.svg" alt="facebook"/>
         </a>
-        <a href="https://www.instagram.com/digitus_uio/">
+        <a href="https://www.instagram.com/digitus_uio/" target="_blank" >
           <img src="/assets/img/instagram.svg" alt="instagram"/>
         </a>
-        <a href="https://www.linkedin.com/company/digitusuio/">
+        <a href="https://www.linkedin.com/company/digitusuio/" target="_blank" >
           <img src="/assets/img/linkedin.svg" alt="linkedin"/>
         </a>
       </div>
