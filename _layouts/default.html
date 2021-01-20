@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,89 +18,79 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.0/moveTo.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- moveTo: Scroll on click -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.0/moveTo.min.js"></script>
+
+    <!-- Instagram feed code -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <img src="/assets/img/banner.png"/>
+    <header class="header" role="banner">
+      <a href="" class="logo"><img class="logo" src="/assets/img/logo_d.png" alt="Digitus logo"/></a>
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <label for="nav-trigger"></label>
-      <div class="menu-bar"><a href="#about">Om oss</a><a href="#calender">Arrangementer</a><a href="#contact">Kontakt oss</a><a href="#sponsor">Samarbeidspartner</a><a href="#board">Styret</a><a href="#images">Bilder</a><a href="#press">Presse</a></div>
+      <label class="menu-icon" for="nav-trigger"><span class="navicon"></span></label>
+      <div class="menu">
+        <a href="#calendar-span">ARRANGEMENTER</a>
+        <a href="#sponsor-span">SAMARBEIDSPARTNER</a>
+        <a href="#board-span">STYRET</a>
+        <a href="#press-span">NYHETER</a>
+      </div>
     </header>
-
     <main id="content" class="main-content" role="main">
-      <span id="about"></span>
-      <div id="about2" class="section about">
-        <h2>Om oss</h2>
+      <span id="about-span"></span>
+      <div id="about" class="section about">
+        <h1>Digitus</h1>
+        <h2>Linjeforeningen for Digøk</h2>
         <div>
           <p>{{ site.about | markdownify }}</p>
-          <div class="img-cont-2">
-            <img src="{{ site.about_image }}"/>
-          </div>
+          <a href="/vedtekter" style="font-weight: bold">Her finner du vedtektene våre.</a>
         </div>
       </div>
-      <span id="calender"></span><span id="contact"></span>
-      <div class="section-container">
-        <div id="calender2" class="section calender">
-          <h2>Arrangementer</h2>
-          <div id="calendar3"></div>
-          <p><a href="https://www.facebook.com/digitusuio/">Flere arrangementer på vår Facebook-side</a></p>
-        </div>
-        <div id="contact2" class="section">
-          <h2>Kontakt oss</h2>
-          <div>
-            <div class="links">
-              <div>
-                <p>For kontakt med leder, send mail til <a href="mailto:leder@digitusuio.no">leder@digitusuio.no</a></p>
-                <p>For kontakt med styret, send mail til <a href="mailto:styret@digitusuio.no">styret@digitusuio.no</a></p></div>
-            </div>
-            <div class="icon-bar"><a data-aos="zoom-in-up" href="https://www.facebook.com/digitusuio/"><img src="/assets/img/facebook.svg"/></a><a data-aos="zoom-in-up" href="https://www.instagram.com/digitus_uio/"><img src="/assets/img/instagram.svg"/></a><a data-aos="zoom-in-up" href="https://www.linkedin.com/company/digitusuio/"><img src="/assets/img/linkedin.svg"/></a></div>
-          </div>
+      <span id="images-span"></span>
+      <div id="images" class="section images">
+        <div class="elfsight-app-0bbf1417-0474-4135-ba1a-c59858466028"></div>
+      </div>
+      <span id="calendar-span"></span>
+      <div id="calendar" class="section calendar">
+        <h2>Arrangementer</h2>
+        <p>{{ site.events_desc }}</p>
+        <img src="{{ site.events }}" alt="event plan"/>
+        <p><a href="https://www.facebook.com/digitusuio/">Datoer og innhold kan endre seg. Følg med på vår Facebook-side for oppdatert info.</a></p>
+      </div>
+      <span id="sponsor-span"></span>
+      <div id="sponsor" class="section sponsor">
+        <h2>Vår samarbeidspartner</h2>
+        <div>
+          <p>{{ site.partner_text }}</p>
+          <a href="{{ site.partner_url }}" target="_blank">
+            <img src="{{ site.partner_logo }}" alt="partner logo"/>
+          </a>
         </div>
       </div>
-      <span id="sponsor"></span>
-      <div id="sponsor2" class="sponsor">
-        <div class="section">
-          <h2>Vår samarbeidspartner</h2>
-          <div>
-            <div class="img-cont">
-              <a href="{{ site.partner_url }}" target="_blank">
-                <img src="{{ site.partner_logo }}"/>
-              </a>
-            </div>
-            <div>
-              <a href="{{ site.partner_url }}" target="_blank"><h3>BDO</h3></a>
-              <p>{{ site.partner_text }}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <span id="board"></span>
-      <div id="board2" class="section board">
+      <span id="board-span"></span>
+      <div id="board" class="section board">
         <h2>Styret</h2>
         <div class="board-members">
         {% for board_member in site.board_members %}
           <div class="board-member">
-            <div class="board-picture">
-              <img src="{{ board_member.img }}" />
+            <div class="portrait">
+              <img src="{{ board_member.img }}"  alt="{{ board_member.name }}"/>
             </div>
-
             <p>{{ board_member.name }}</p>
             <p class="role">{{ board_member.role }}</p>
-            <div class="board-links">
+            <div class="links">
               <a href="mailto:{{ board_member.mail }}"><i class="far fa-envelope"></i></a><a href="{{ board_member.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         {% endfor %}
         </div>
       </div>
-      <span id="images"></span>
-      <div id="images2" class="section images"><h2>Bilder</h2><div class="images-holder"></div><p class="images-footer"><a href="https://www.instagram.com/digitus_uio/">Se flere bilder på vår Instagram</a></p></div>
-      <span id="press"></span>
-      <div class="section presse">
-        <h2>Presse</h2>
+      <span id="press-span"></span>
+      <div class="section press">
+        <h2>Nyheter</h2>
         {% for press in site.press %}
         <div>
           <a href="{{ press.link }}">{{ press.title }}</a>
@@ -109,6 +99,21 @@
         {% endfor %}
       </div>
     </main>
+    <footer class="page-footer">
+      <img src="/assets/img/logo.png" alt="logo"/>
+      <p>Kontakt oss:<a href="mailto:styret@digitusuio.no">styret@digitusuio.no</a></p>
+      <div class="icon-bar">
+        <a href="https://www.facebook.com/digitusuio/">
+          <img src="/assets/img/facebook.svg" alt="facebook"/>
+        </a>
+        <a href="https://www.instagram.com/digitus_uio/">
+          <img src="/assets/img/instagram.svg" alt="instagram"/>
+        </a>
+        <a href="https://www.linkedin.com/company/digitusuio/">
+          <img src="/assets/img/linkedin.svg" alt="linkedin"/>
+        </a>
+      </div>
+    </footer>
     <script type="text/javascript">
       function callAjax(url, callback){
         var xmlhttp;
@@ -155,11 +160,13 @@
       var moveTo = new MoveTo();
 
       (function() {
-        var menuItems = document.getElementsByClassName('menu-bar')[0]
+        var menuItems = document.getElementsByClassName('menu')[0]
         menuItems = menuItems.children;
         for (var i = 0; i < menuItems.length; i++) {
           moveTo.registerTrigger(menuItems[i]);
         }
+        var logo = document.getElementsByClassName('logo')[0]
+        moveTo.registerTrigger(logo);
       })();
 
       AOS.init();
