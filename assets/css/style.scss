@@ -104,14 +104,11 @@ body {
 }
 
 .main-content a {
-  color: var(--text-faded);
   text-align: center;
-  transition: color 250ms ease;
 }
 
 .main-content a:hover{
   text-decoration: none;
-  color: var(--secondary);
 }
 
 /*sets position for each section, for scrolling*/

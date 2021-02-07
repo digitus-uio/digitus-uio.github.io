@@ -21,6 +21,10 @@ NB: Er ikke hot reload, så må refreshe siden for hver endring.
 
 NB2: Hvis endringer blir gjort i `config`, må man avslutte bundle og restarte fra punkt 2.
 
+## For wsl2 windows
+- Fikk noen problemer når jeg prøvde å kjøre 'script/bootstrap', løste seg etter at jeg kjørte 'sudo apt-get install ruby-dev'.
+- I tillegg kan det være nødvendig å laste ned ruby og rbenv. [link til fin tutorial her](https://www.osradar.com/how-to-install-ruby-on-rails-on-ubuntu-20-04/)
+
 
 ### Tilpasning
 

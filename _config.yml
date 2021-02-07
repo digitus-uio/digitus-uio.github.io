@@ -12,14 +12,19 @@ about_image: "assets/pictures/Felles trapp 1.jpeg"
 
 instagram_limit: 6
 
-partner_url: "https://www.bdo.no/nb-no/home-no"
-partner_logo: "assets/img/bdo.jpg"
-partner_text: "Våren 2019 fikk vi BDO som samarbeidspartner. BDO er ledende innen revisjon, regnskap, rådgivning og advokattjenester i Norge. De har over 1500 ansatte i Norge og mer enn 70 kontorer over hele landet. Kundene deres er alt fra store, verdensomspennende selskaper til små og mellomstore bedrifter. BDO har kunder fra de fleste bransjer i både privat og offentlig sektor. Internasjonalt er BDO til stede i 164 land og teller i overkant av 77 000 ansatte."
+partner_url: "https://www.tietoevry.com/"
+partner_logo: "assets/img/TietoEvry_logo.svg"
+partner_text: "Våren 2020 ble Tieto EVRY vår samarbeidspartner. Tieto EVRY er en av nordens ledende leverandører innen digitale tjenester og bygger en smart og bærekraftig fremtid. Vi gleder oss til arrangementer sammen med tieto EVRY, og til å se hvilke muligheter de har for oss digøkere."
 
-events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/SUdA15MJCoLbkpNv8'>Send inn ditt her!</a>"
-events: "assets/pictures/tidslinjeh20.jpg"
+events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9'>Send inn ditt her!</a>"
+events: "assets/pictures/tidslinjeV21.jpg"
 
 press: [
+  {
+    title: "Hvordan er det å studere digital økonomi og ledelse?",
+    subtitle: "UiO, 12. nau 2020",
+    link: "https://www.uio.no/studier/program/informatikk-ledelse/studiemiljo/digok-fremtidens-arbeidsoppgaver-ahlam.html",
+  },
   {
     title: "Her er nåløyet trangest",
     subtitle: "Dagens Næringsliv, 19. juli 2018",
@@ -33,7 +38,7 @@ press: [
   {
     title: "Fremtidens leder",
     subtitle: "UiO.no, 22. juni 2018",
-    link: "https://www.dn.no/utdannelse/samordna-opptak/studieretning/her-er-naloyet-trangest/2-1-381991",
+    link: "https://www.uio.no/studier/program/informatikk-ledelse/karriereintervjuer/dig%C3%B8k-julie-eld%C3%B8y.html",
   },
   {
     title: "“Alle” vil til it-studier",
@@ -54,32 +59,32 @@ press: [
 
 board_members: [
   {
-    name: "Ingeborg Steel",
-    img: "assets/pictures/Ingeborg.jpeg",
-    role: "Leder",
-    mail: "leder@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/ingeborgsteel/",
+      name: "Hanne Foss",
+      img: "assets/pictures/Hanne 2.jpeg",
+      role: "Leder",
+      mail: "leder@digitusuio.no",
+      linkedin: "https://www.linkedin.com/in/hanne-celine-foss/",
   },
   {
-    name: "Mats Bjerke Larsen",
-    img: "assets/pictures/Mats.jpeg",
-    role: "Nestleder",
-    mail: "nestleder@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/mats-bjerke-larsen-ab353b146/",
+      name: "Magnus Kalland",
+      img: "assets/pictures/Magnus.jpeg",
+      role: "Nestleder",
+      mail: "nestleder@digitusuio.no",
+      linkedin: "https://www.linkedin.com/in/magnus-helle-kalland-925a39131/",
   },
   {
-      name: "Peter Kristiansen",
-      img: "assets/pictures/Peter.jpeg",
+      name: "Mathias Schumacher",
+      img: "assets/pictures/Mathias_gammelt.jpg",
       role: "Økonomiansvarlig",
       mail: "okonomi@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/peter-kristiansen-a64041170/",
+      linkedin: "https://www.linkedin.com/in/mathias-schumacher-69a0871a4/",
   },
   {
-      name: "Kristine Grøttland",
-      img: "assets/pictures/Kristine.jpeg",
+      name: "Joanna Vestad",
+      img: "assets/pictures/Joanna_gammelt.jpg",
       role: "Eventansvarlig",
       mail: "event@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/kristine-jun-gr%C3%B8ttland-85a8a3181/",
+      linkedin: "https://www.linkedin.com/company/digitusuio/",
   },
   {
       name: "Veronica N. Hofsøy",
@@ -89,18 +94,18 @@ board_members: [
       linkedin: "https://www.linkedin.com/in/veronica-norum-hofs%C3%B8y-77a4591a3/",
   },
   {
-      name: "Hanne Foss",
-      img: "assets/pictures/Hanne 2.jpeg",
+      name: "Sigurd Ormseth Årøen",
+      img: "assets/pictures/Sigurd_gammelt.jpg",
       role: "PR-ansvarlig",
       mail: "pr@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/hanne-celine-foss/",
+      linkedin: "https://www.linkedin.com/in/sigurd-ormseth-%C3%A5r%C3%B8en-aaa63a1a3/",
   },
   {
-      name: "Olav H. Moseng",
-      img: "assets/pictures/Olav 1.jpeg",
+      name: "Peter Kristiansen",
+      img: "assets/pictures/Peter.jpeg",
       role: "Seniormedlem",
       mail: "senior@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/olavmoseng/",
+      linkedin: "https://www.linkedin.com/in/peter-kristiansen-a64041170/",
   },
   {
       name: "Anna Elise Dæhlen",
@@ -110,10 +115,10 @@ board_members: [
       linkedin: "https://www.linkedin.com/in/annaelised%C3%A6hlen/",
   },
   {
-      name: "Magnus Kalland",
-      img: "assets/pictures/Magnus.jpeg",
+      name: "Petter Johan Sandvand",
+      img: "assets/pictures/Petter_gammelt.jpg",
       role: "Styremedlem",
       mail: "styremedlem2@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/magnus-helle-kalland-925a39131/",
+      linkedin: "https://www.linkedin.com/in/pettersandvand/",
   },
 ]
