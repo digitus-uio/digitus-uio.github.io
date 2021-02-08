@@ -14,7 +14,7 @@ instagram_limit: 6
 
 partner_url: "https://www.tietoevry.com/"
 partner_logo: "assets/img/TietoEvry_logo.svg"
-partner_text: "Våren 2020 ble Tieto EVRY vår samarbeidspartner. Tieto EVRY er en av nordens ledende leverandører innen digitale tjenester og bygger en smart og bærekraftig fremtid. Vi gleder oss til arrangementer sammen med tieto EVRY, og til å se hvilke muligheter de har for oss digøkere."
+partner_text: "Våren 2020 ble tieto EVRY vår samarbeidspartner. tieto EVRY er en av nordens ledende leverandører innen digitale tjenester og bygger en smart og bærekraftig fremtid. Vi gleder oss til arrangementer sammen med tieto EVRY, og til å se hvilke muligheter de har for oss digøkere."
 
 events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9'>Send inn ditt her!</a>"
 events: "assets/pictures/tidslinjeV21.jpg"
@@ -22,7 +22,7 @@ events: "assets/pictures/tidslinjeV21.jpg"
 press: [
   {
     title: "Hvordan er det å studere digital økonomi og ledelse?",
-    subtitle: "UiO, 12. nau 2020",
+    subtitle: "UiO, 12. mai 2020 ",
     link: "https://www.uio.no/studier/program/informatikk-ledelse/studiemiljo/digok-fremtidens-arbeidsoppgaver-ahlam.html",
   },
   {
