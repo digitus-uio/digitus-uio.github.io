@@ -21,8 +21,13 @@ events: "assets/pictures/tidslinjeV21.jpg"
 
 press: [
   {
+    title: "Hvorfor ta en master i informatikk: digital økonomi og ledelse?",
+    subtitle: "UiO, 22. mars 2021",
+    link: "https://www.uio.no/studier/program/informatikk-ledelse-master/studiemiljo/hvorfor-ta-en-master-i-informatikk.html",
+  },
+  {
     title: "Hvordan er det å studere digital økonomi og ledelse?",
-    subtitle: "UiO, 12. mai 2020 ",
+    subtitle: "UiO, 12. mai 2020",
     link: "https://www.uio.no/studier/program/informatikk-ledelse/studiemiljo/digok-fremtidens-arbeidsoppgaver-ahlam.html",
   },
   {
