@@ -109,7 +109,7 @@ board_members: [
   },
   {
       name: "Ingeborg Steel",
-      img: "assets/pictures/Ingeborg.jpg",
+      img: "assets/pictures/Ingeborg.jpeg",
       role: "PR-ansvarlig",
       mail: "pr@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/ingeborgsteel/",
