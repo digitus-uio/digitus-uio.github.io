@@ -47,7 +47,7 @@
         <div>
           <p>{{ site.about | markdownify }}</p>
           <!-- fjern target="_blank" når vi får egen underside, ryddig å lage ny fane når vi linker til en doc -->
-          <a target="_blank" href="https://docs.google.com/document/d/1TDxy3Tnwz5i5h2MsBf87YpEE5Cc_uvZooHyf5KKZelE/edit?usp=sharing" style="font-weight: bold">Her finner du vedtektene våre.</a>
+          <a href="vedtekter" style="font-weight: bold">Her finner du vedtektene våre.</a>
         </div>
       </div>
       <span id="images-span"></span>
@@ -64,11 +64,25 @@
       <span id="sponsor-span"></span>
       <div id="sponsor" class="section sponsor">
         <h2>Vår samarbeidspartner</h2>
-        <div>
-          <p>{{ site.partner_text }}</p>
-          <a href="{{ site.partner_url }}" target="_blank">
-            <img src="{{ site.partner_logo }}" alt="partner logo"/>
-          </a>
+        <a href="{{ site.partner_url }}" target="_blank">
+          <img src="{{ site.partner_logo }}" alt="partner logo"/>
+        </a>
+        <div class="table">
+          <div class="table-cell">
+            <div class="sponsor-about">
+              <p>{{ site.partner_text }}</p>
+            </div>
+          </div>
+          <div class="table-cell">
+            <div class="vacancies">
+              <h3>Ledige stillinger</h3>
+              {% for vacancy in site.partner_vacancies %}
+                <a href="{{ vacancy.link }}" target="_blank" >{{ vacancy.title }}</a>
+                <p>Frist: {{ vacancy.deadline }}</p>
+                <p>{{ vacancy.text }}</p>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
       <span id="board-span"></span>

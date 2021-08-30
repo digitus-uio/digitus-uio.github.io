@@ -14,7 +14,16 @@ instagram_limit: 6
 
 partner_url: "https://www.tietoevry.com/"
 partner_logo: "assets/img/TietoEvry_logo.svg"
-partner_text: "Våren 2020 ble tieto EVRY vår samarbeidspartner. tieto EVRY er en av nordens ledende leverandører innen digitale tjenester og bygger en smart og bærekraftig fremtid. Vi gleder oss til arrangementer sammen med tieto EVRY, og til å se hvilke muligheter de har for oss digøkere."
+partner_text: "Våren 2020 ble TietoEVRY vår samarbeidspartner. TietoEVRY er en av Nordens ledende leverandører innen digitale tjenester og bygger en smart og bærekraftig fremtid. Vi gleder oss til arrangementer sammen med TietoEVRY, og til å se hvilke muligheter de har for oss Digøkere."
+
+partner_vacancies: [
+  {
+    title: "TietoEVRY Graduate Program 2022",
+    link: "https://www.tietoevry.com/en/campaigns/2021/graduate-program/",
+    deadline: "08.09.2021",
+    text: "Finishing your bachelor or masters degree next summer? Join our Graduate Program!"
+  }
+]
 
 events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9'>Send inn ditt her!</a>"
 events: "assets/pictures/tidslinjeV21.jpg"
@@ -92,38 +101,38 @@ board_members: [
       linkedin: "https://www.linkedin.com/company/digitusuio/",
   },
   {
-      name: "Veronica N. Hofsøy",
-      img: "assets/pictures/Veronica.jpeg",
+      name: "Max Drains Dahl",
+      img: "assets/pictures/Max.jpeg",
       role: "Bedriftskontakt",
       mail: "bedrift@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/veronica-norum-hofs%C3%B8y-77a4591a3/",
+      linkedin: "https://www.linkedin.com/in/max-drains-dahl-82b053219/",
   },
   {
-      name: "Sigurd Ormseth Årøen",
-      img: "assets/pictures/Sigurd_gammelt.jpg",
+      name: "Ingeborg Steel",
+      img: "assets/pictures/Ingeborg.jpg",
       role: "PR-ansvarlig",
       mail: "pr@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/sigurd-ormseth-%C3%A5r%C3%B8en-aaa63a1a3/",
+      linkedin: "https://www.linkedin.com/in/ingeborgsteel/",
   },
   {
-      name: "Peter Kristiansen",
-      img: "assets/pictures/Peter.jpeg",
+      name: "Eirik Valen",
+      img: "assets/pictures/Eirik.jpeg",
       role: "Seniormedlem",
       mail: "senior@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/peter-kristiansen-a64041170/",
+      linkedin: "",
   },
   {
-      name: "Anna Elise Dæhlen",
-      img: "assets/pictures/Anna Elise.jpeg",
+    name: "Sigurd Ormseth Årøen",
+    img: "assets/pictures/Sigurd_gammelt.jpg",
       role: "Styremedlem",
       mail: "styremedlem1@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/annaelised%C3%A6hlen/",
+    linkedin: "https://www.linkedin.com/in/sigurd-ormseth-%C3%A5r%C3%B8en-aaa63a1a3/",
   },
   {
-      name: "Petter Johan Sandvand",
-      img: "assets/pictures/Petter_gammelt.jpg",
+      name: "Ahmed Saeed",
+      img: "assets/pictures/Ahmed.jpeg",
       role: "Styremedlem",
       mail: "styremedlem2@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/pettersandvand/",
+      linkedin: "https://www.linkedin.com/in/ahmed-waseem-saeed-122b2b1a2/",
   },
 ]

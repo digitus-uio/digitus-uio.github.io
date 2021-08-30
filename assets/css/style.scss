@@ -125,6 +125,12 @@ span {
   width: 100%;
 }
 
+.vedtekter {
+  padding-top: 17rem;
+  max-width: 50rem;
+  padding-bottom: 6rem;
+}
+
 .about {
   padding-top: 8rem;
   max-width: 50rem;
@@ -150,23 +156,71 @@ span {
   max-width: 100vw;
 }
 
-.sponsor > div {
+.sponsor {
   display: flex;
-  align-content: center;
-}
-
-.sponsor a {
-  align-self: center;
+  flex-direction: column;
 }
 
 .sponsor a img {
-  max-width: 200px;
+  align-self: center;
+  max-width: 300px;
   width: auto;
   height: auto;
+  margin: 20px;
+  vertical-align: middle;
 }
 
-.sponsor div p {
+.sponsor .table {
+  display: table;
+  padding: 10px;
+  align-content: center;
+  table-layout: fixed;
+}
+
+.sponsor .table-cell {
+  padding: 10px;
+  display: table-cell;
+  align-content: center;
+  width: 2%;
+}
+
+.sponsor .sponsor-about p {
   text-align: left;
+}
+
+.vacancies {
+  background-color: var(--gradient-end);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vacancies h3 {
+  font-size: 25px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.vacancies a {
+  margin-top: 20px;
+  color: white;
+  transition: color 250ms ease;
+  text-align: center;
+  font-weight: bold;
+}
+
+.vacancies a:hover{
+  color: var(--secondary);
+}
+
+.vacancies p {
+  margin-top: 3px;
+  font-size: 14px;
+  margin-bottom: 18px;
+  text-align: center;
+  color: white;
 }
 
 .board-members {
@@ -243,7 +297,7 @@ span {
   max-height: 75px;
 }
 
-.page-footer a{
+.page-footer a {
   color: white;
   margin: 1em;
 }
@@ -315,6 +369,11 @@ label[for="nav-trigger"] {
 
   .main-content h2 {
     font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .main-content h3 {
+    font-size: 18px;
     margin-left: 20px;
   }
 
