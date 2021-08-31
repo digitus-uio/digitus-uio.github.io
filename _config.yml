@@ -7,7 +7,7 @@ theme: jekyll-theme-cayman
 contact_board: "styret@digitusuio.no"
 contact_leader: "leder@digitusuio.no"
 
-about: "Digitus er linjeforeningen for studentene på <a href='https://www.uio.no/studier/program/informatikk-ledelse/'>Informatikk: Digital økonomi og ledelse</a> (Digøk) ved Universitetet i Oslo. Vi arrangerer faglige og sosiale arrangementer for studentene våre, og tar vare på deres interesser på Ifi."
+about: "Digitus er linjeforeningen for studentene på <a href='https://www.uio.no/studier/program/informatikk-ledelse/' target='_blank'>Informatikk: Digital økonomi og ledelse</a> (Digøk) ved Universitetet i Oslo. Vi arrangerer faglige og sosiale arrangementer for studentene våre, og tar vare på deres interesser på Ifi."
 about_image: "assets/pictures/Felles trapp 1.jpeg"
 
 instagram_limit: 6
@@ -25,7 +25,7 @@ partner_vacancies: [
   }
 ]
 
-events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9'>Send inn ditt her!</a>"
+events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9' target='_blank'>Send inn ditt her!</a>"
 events: "assets/pictures/tidslinjeV21.jpg"
 
 press: [
