@@ -26,7 +26,7 @@ partner_vacancies: [
 ]
 
 events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9' target='_blank'>Send inn ditt her!</a>"
-events: "assets/pictures/tidslinjeV21.jpg"
+events: "assets/pictures/arrplan.png"
 
 press: [
   {
@@ -74,63 +74,63 @@ press: [
 board_members: [
   {
       name: "Hanne Foss",
-      img: "assets/pictures/Hanne 2.jpeg",
+      img: "assets/pictures/hanne.JPG",
       role: "Leder",
       mail: "leder@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/hanne-celine-foss/",
   },
   {
       name: "Magnus Kalland",
-      img: "assets/pictures/Magnus.jpeg",
+      img: "assets/pictures/magnus.JPG",
       role: "Nestleder",
       mail: "nestleder@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/magnus-helle-kalland-925a39131/",
   },
   {
       name: "Mathias Schumacher",
-      img: "assets/pictures/Mathias_gammelt.jpg",
+      img: "assets/pictures/mathias.JPG",
       role: "Økonomiansvarlig",
       mail: "okonomi@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/mathias-schumacher-69a0871a4/",
   },
   {
       name: "Joanna Vestad",
-      img: "assets/pictures/Joanna_gammelt.jpg",
+      img: "assets/pictures/joanna.JPG",
       role: "Eventansvarlig",
       mail: "event@digitusuio.no",
       linkedin: "https://www.linkedin.com/company/digitusuio/",
   },
   {
       name: "Max Drains Dahl",
-      img: "assets/pictures/Max.jpeg",
+      img: "assets/pictures/max.JPG",
       role: "Bedriftskontakt",
       mail: "bedrift@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/max-drains-dahl-82b053219/",
   },
   {
       name: "Ingeborg Steel",
-      img: "assets/pictures/Ingeborg.jpeg",
+      img: "assets/pictures/ingeborg.JPG",
       role: "PR-ansvarlig",
       mail: "pr@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/ingeborgsteel/",
   },
   {
       name: "Eirik Valen",
-      img: "assets/pictures/Eirik.jpeg",
+      img: "assets/pictures/eirik.JPG",
       role: "Seniormedlem",
       mail: "senior@digitusuio.no",
       linkedin: "",
   },
   {
     name: "Sigurd Ormseth Årøen",
-    img: "assets/pictures/Sigurd_gammelt.jpg",
+    img: "assets/pictures/sigurd.JPG",
       role: "Styremedlem",
       mail: "styremedlem1@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/sigurd-ormseth-%C3%A5r%C3%B8en-aaa63a1a3/",
   },
   {
       name: "Ahmed Saeed",
-      img: "assets/pictures/Ahmed.jpeg",
+      img: "assets/pictures/ahmed.JPG",
       role: "Styremedlem",
       mail: "styremedlem2@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/ahmed-waseem-saeed-122b2b1a2/",
