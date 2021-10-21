@@ -119,7 +119,7 @@ board_members: [
       img: "assets/pictures/eirik.JPG",
       role: "Seniormedlem",
       mail: "senior@digitusuio.no",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/eirik-valen-77b123221/",
   },
   {
     name: "Sigurd Ormseth Årøen",
