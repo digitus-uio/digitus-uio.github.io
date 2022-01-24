@@ -58,7 +58,7 @@
       <div id="calendar" class="section calendar">
         <h2>Arrangementer</h2>
         <p>{{ site.events_desc }}</p>
-        <img src="{{ site.events }}" alt="event plan"/>
+        <img src="{{ site.events }}" alt="event plan" id="eventPlan"/>
         <p><a href="https://www.facebook.com/digitusuio/" target="_blank" >Datoer og innhold kan endre seg. Følg med på vår Facebook-side for oppdatert info.</a></p>
       </div>
       <span id="sponsor-span"></span>
@@ -152,7 +152,6 @@
           }
           i++;
         });
-
       });
 
       callAjax('https://us-central1-ifi-tracking.cloudfunctions.net/function-1', function(data) {
