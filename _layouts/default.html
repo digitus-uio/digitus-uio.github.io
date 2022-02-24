@@ -73,20 +73,22 @@
               <p>{{ site.partner_text }}</p>
             </div>
           </div>
-          <div class="table-cell">
-            <div class="vacancies">
-              <h3>Ledige stillinger</h3>
-              {% for vacancy in site.partner_vacancies %}
-                <a href="{{ vacancy.link }}" target="_blank" >{{ vacancy.title }}</a>
-                <p>Frist: {{ vacancy.deadline }}</p>
-                <p>{{ vacancy.text }}</p>
-              {% endfor %}
-            </div>
+          {% if site.partner_vacancies %}
+            <div class="table-cell">
+                <div class="vacancies">
+                  <h3>Ledige stillinger</h3>
+                  {% for vacancy in site.partner_vacancies %}
+                    <a href="{{ vacancy.link }}" target="_blank" >{{ vacancy.title }}</a>
+                    <p>Frist: {{ vacancy.deadline }}</p>
+                    <p>{{ vacancy.text }}</p>
+                  {% endfor %}
+              </div>
+          {% endif %}
           </div>
         </div>
       </div>
       <span id="board-span"></span>
-      <div id="board" class="section board">
+      <div id="board" class="section board table">
         <h2>Styret</h2>
         <div class="board-members">
         {% for board_member in site.board_members %}
