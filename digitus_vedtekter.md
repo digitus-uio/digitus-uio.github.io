@@ -1,6 +1,6 @@
 # DIGITUS’ VEDTEKTER
 
-_per 01. januar 2021_
+_per 03. mars 2022_
 
 
 ### A. OM FORENINGEN
@@ -18,7 +18,7 @@ _per 01. januar 2021_
 
 
 
-**§2**	Digitus skal tilrettelegge for at alle studenter ved kan føle en tilknytning til sitt studieprogram som interesseområde.
+**§2**	Digitus skal tilrettelegge for at alle studenter ved studieprogrammet Informatikk: Digital Økonomi og Ledelse kan føle en tilknytning til sitt studieprogram som interesseområde.
 
 
 ### 	C. VEDTEKTENE
