@@ -19,7 +19,7 @@ partner_text: "Tietoevry er en av Nordens ledende leverandører innen digitale t
 # partner_vacancies: [{title:"",link:"",deadline:"",text:""}]
 
 events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9' target='_blank'>Send inn ditt her!</a>"
-events: "assets/pictures/arrplan.png"
+events: "assets/pictures/placeholder_events.jpg"
 
 press: [
   {
@@ -72,63 +72,63 @@ press: [
 board_members: [
   {
       name: "Kim Isak Olsen",
-      img: "assets/pictures/kimisak.jpg",
+      img: "assets/pictures/placeholder_profile.jpg",
       role: "Leder",
       mail: "leder@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/kimisak/",
   },
   {
       name: "Elias S. Ramsvik",
-      img: "assets/pictures/elias.jpg",
+      img: "assets/pictures/placeholder_profile.jpg",
       role: "Nestleder",
       mail: "nestleder@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/elias-s-ramsvik-0519431b0/",
   },
   {
       name: "Stefan Spanic",
-      img: "assets/pictures/stefan.jpg",
+      img: "assets/pictures/placeholder_profile.jpg",
       role: "Økonomiansvarlig",
       mail: "okonomi@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/stefanspanic/",
   },
   {
-      name: "Nora Alexandra Joakimsen",
-      img: "assets/pictures/nora.jpg",
+      name: "Synnøve Nordvik Helgesen",
+      img: "assets/pictures/placeholder_profile.jpg",
       role: "Eventansvarlig",
       mail: "event@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/nora-alexandra-joakimsen-631045163/",
   },
   {
-      name: "Madin Cej",
-      img: "assets/pictures/madin.jpg",
+      name: "Sindre Lianes Nilsen",
+      img: "assets/pictures/placeholder_profile.jpg",
       role: "Bedriftskontakt",
       mail: "bedrift@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/madin-cej-79336a190/",
   },
   {
       name: "Julie Aamnes",
-      img: "assets/pictures/julie.jpg",
+      img: "assets/pictures/placeholder_profile.jpg",
       role: "PR-ansvarlig",
       mail: "pr@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/julie-aamnes-95b90b1b6/",
   },
   {
-      name: "Hanne Celine Foss",
-      img: "assets/pictures/hanne.jpg",
+      name: "Nora Alexandra Joakimsen",
+      img: "assets/pictures/placeholder_profile.jpg",
       role: "Seniormedlem",
       mail: "senior@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/hanne-celine-foss/",
   },
   {
-    name: "Zhara Rezai",
-    img: "assets/pictures/zhara.jpg",
+    name: "Sivert Karlsen",
+    img: "assets/pictures/placeholder_profile.jpg",
       role: "Styremedlem",
       mail: "styremedlem1@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/zhara-rezai-30b1811b5/",
   },
   {
-      name: "Sebastian Hoxhallari",
-      img: "assets/pictures/sebastian.jpg",
+      name: "Sara Sola",
+      img: "assets/pictures/placeholder_profile.jpg",
       role: "Styremedlem",
       mail: "styremedlem2@digitusuio.no",
       linkedin: "https://www.linkedin.com/in/sebastian-hoxhallari-65463815b/",
