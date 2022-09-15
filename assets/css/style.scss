@@ -189,7 +189,7 @@ span {
 }
 
 .vacancies {
-  background-color: var(--gradient-end);
+  background-color: rgba(var(--gradient-end), .5);
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -205,8 +205,6 @@ span {
 
 .vacancies a {
   margin-top: 20px;
-  color: white;
-  transition: color 250ms ease;
   text-align: center;
   font-weight: bold;
 }
@@ -239,6 +237,10 @@ span {
   margin-top: 10px !important;
 }
 
+.board-member .grade {
+  font-size: 0.8rem;
+}
+
 .board-member p {
   margin: 0;
   text-align: center;
@@ -249,11 +251,14 @@ span {
 }
 
 .board-member .portrait {
-  margin: 2px;
+  background: var(--gradient-end);
+  width: 150px;
+  height: 150px;
 }
 
 .board-member .portrait img {
   width: 150px;
+  height: 150px;
   border-radius: 0;
 }
 

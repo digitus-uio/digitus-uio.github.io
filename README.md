@@ -45,6 +45,7 @@ board_members: [
       role: "[rolle]"
       mail: "[mail]"
       linkedin: "[url til linkedin]"
+      class: "[klassetrinn på studiet]"
    },
 ]
 ```

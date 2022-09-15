@@ -75,9 +75,9 @@
           {% if site.partner_vacancies %}
             <div class="table-cell">
                 <div class="vacancies">
-                  <h3>Ledige stillinger</h3>
+                  <h3>{{site.partner_vacancies_header}}</h3>
                   {% for vacancy in site.partner_vacancies %}
-                    <a href="{{ vacancy.link }}" target="_blank" >{{ vacancy.title }}</a>
+                    <a href="{{vacancy.link}}" target="_blank" >{{ vacancy.title }}</a>
                     <p>Frist: {{ vacancy.deadline }}</p>
                     <p>{{ vacancy.text }}</p>
                   {% endfor %}
@@ -93,16 +93,22 @@
         {% for board_member in site.board_members %}
           <div class="board-member">
             <div class="portrait">
-              <img src="{{ board_member.img }}"  alt="{{ board_member.name }}"/>
+                <img src="{{ board_member.img }}"  alt="{{ board_member.name }}"/>
             </div>
+            <p class="grade">{{board_member.grade}}. klasse</p>
             <p>{{ board_member.name }}</p>
-            <p class="role">{{ board_member.role }}</p>
+            <a href="mailto:{{ board_member.mail }}"><p class="role">{{ board_member.role }}</p></a>
             <div class="links">
-              <a href="mailto:{{ board_member.mail }}"><i class="far fa-envelope"></i></a><a href="{{ board_member.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="mailto:{{ board_member.mail }}"><i class="far fa-envelope"></i></a>
+              <a href="{{ board_member.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         {% endfor %}
         </div>
+      </div>
+      <div class="businesses">
+        <h3> Kommer du fra næringslivet og ønsker å promotere bedriften din eller holde bedriftspresentasjon?</h3>
+        <p> Ta kontakt med <a href="https://www.ifinavet.no/for-bedrifter/">navet</a>: IFIs koordinerings- og kommunikasjonssentral for bedrifter.</p>
       </div>
       <span id="press-span"></span>
       <div class="section press">

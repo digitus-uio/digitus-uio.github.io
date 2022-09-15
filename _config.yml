@@ -8,18 +8,25 @@ contact_board: "styret@digitusuio.no"
 contact_leader: "leder@digitusuio.no"
 
 about: "Digitus er linjeforeningen for studentene på <a href='https://www.uio.no/studier/program/informatikk-ledelse/' target='_blank'>Informatikk: Digital økonomi og ledelse</a> (Digøk) ved Universitetet i Oslo. Vi arrangerer faglige og sosiale arrangementer for studentene våre, og tar vare på deres interesser på Ifi."
-about_image: "assets/pictures/Felles trapp 1.jpeg"
+about_image: "/assets/img/styret.jpg"
 
 instagram_limit: 6
 
 partner_url: "https://www.tietoevry.com/"
 partner_logo: "assets/img/Tietoevry_logo.svg"
 partner_text: "Tietoevry er en av Nordens ledende leverandører innen digitale tjenester og bygger en smart og bærekraftig fremtid. Vi gleder oss til arrangementer sammen med Tietoevry, og til å se hvilke muligheter de har for oss Digøkere."
-
-# partner_vacancies: [{title:"",link:"",deadline:"",text:""}]
+partner_vacancies_header: "Graduate Program"
+# partner_vacancies: [
+#  {
+#    deadline: "7. september 2022",
+#    title: "We are looking for Tech graduates to our specialist track in Norway",
+#    link: "https://tieto.wd3.myworkdayjobs.com/no-NO/Tieto_Careers_External_Site/job/Norway-Fornebu/We-are-looking-for-Tech-graduates-to-our-specialist-track-in-Norway-_R105317-1",
+#    text: "Lorum ipsum",
+#  },
+#]
 
 events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9' target='_blank'>Send inn ditt her!</a>"
-events: "assets/pictures/arrplan.png"
+events: "assets/pictures/arrplan.jpg"
 
 press: [
   {
@@ -71,66 +78,75 @@ press: [
 
 board_members: [
   {
-      name: "Kim Isak Olsen",
-      img: "assets/pictures/kimisak.jpg",
-      role: "Leder",
-      mail: "leder@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/kimisak/",
+    name: "Kim Isak Olsen",
+    img: "assets/img/leder.jpg",
+    role: "Leder",
+    mail: "leder@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/kimisak/",
+    grade: "5",
   },
   {
-      name: "Elias S. Ramsvik",
-      img: "assets/pictures/elias.jpg",
-      role: "Nestleder",
-      mail: "nestleder@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/elias-s-ramsvik-0519431b0/",
+    name: "Elias S. Ramsvik",
+    img: "assets/img/nestleder.jpg",
+    role: "Nestleder",
+    mail: "nestleder@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/elias-s-ramsvik-0519431b0/",
+    grade: "3",
   },
   {
-      name: "Stefan Spanic",
-      img: "assets/pictures/stefan.jpg",
-      role: "Økonomiansvarlig",
-      mail: "okonomi@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/stefanspanic/",
+    name: "Stefan Spanic",
+    img: "assets/img/øko.jpg",
+    role: "Økonomiansvarlig",
+    mail: "okonomi@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/stefanspanic/",
+    grade: "2",
   },
   {
-      name: "Nora Alexandra Joakimsen",
-      img: "assets/pictures/nora.jpg",
-      role: "Eventansvarlig",
-      mail: "event@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/nora-alexandra-joakimsen-631045163/",
+    name: "Synnøve Nordvik Helgesen",
+    img: "assets/img/event.jpg",
+    role: "Eventansvarlig",
+    mail: "event@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/synnovehelgesen/",
+    grade: "2",
   },
   {
-      name: "Madin Cej",
-      img: "assets/pictures/madin.jpg",
-      role: "Bedriftskontakt",
-      mail: "bedrift@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/madin-cej-79336a190/",
+    name: "Sindre Lianes Nilsen",
+    img: "assets/img/bedrift.jpg",
+    role: "Bedriftskontakt",
+    mail: "bedrift@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/sindre-lianes-nilsen-7708b2207/",
+    grade: "4",
   },
   {
-      name: "Julie Aamnes",
-      img: "assets/pictures/julie.jpg",
-      role: "PR-ansvarlig",
-      mail: "pr@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/julie-aamnes-95b90b1b6/",
+    name: "Julie Aamnes",
+    img: "assets/img/pr.jpg",
+    role: "PR-ansvarlig",
+    mail: "pr@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/julie-aamnes-95b90b1b6/",
+    grade: "3",
   },
   {
-      name: "Hanne Celine Foss",
-      img: "assets/pictures/hanne.jpg",
-      role: "Seniormedlem",
-      mail: "senior@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/hanne-celine-foss/",
+    name: "Nora Alexandra Joakimsen",
+    img: "assets/img/senior.jpg",
+    role: "Seniormedlem",
+    mail: "senior@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/nora-alexandra-joakimsen-631045163/",
+    grade: "4",
   },
   {
-    name: "Zhara Rezai",
-    img: "assets/pictures/zhara.jpg",
-      role: "Styremedlem",
-      mail: "styremedlem1@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/zhara-rezai-30b1811b5/",
+    name: "Sara Sola",
+    img: "assets/img/styremedlem1.jpg",
+    role: "Styremedlem",
+    mail: "styremedlem1@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/sara-sola-30790b1b6/",
+    grade: "3",
   },
   {
-      name: "Sebastian Hoxhallari",
-      img: "assets/pictures/sebastian.jpg",
-      role: "Styremedlem",
-      mail: "styremedlem2@digitusuio.no",
-      linkedin: "https://www.linkedin.com/in/sebastian-hoxhallari-65463815b/",
+    name: "Sivert Karlsen",
+    img: "assets/img/styremedlem2.jpg",
+    role: "Styremedlem",
+    mail: "styremedlem2@digitusuio.no",
+    linkedin: "https://www.linkedin.com/in/sivertkarlsen/",
+    grade: "4",
   },
 ]
