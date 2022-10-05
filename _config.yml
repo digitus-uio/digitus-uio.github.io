@@ -16,14 +16,16 @@ partner_url: "https://www.tietoevry.com/"
 partner_logo: "assets/img/Tietoevry_logo.svg"
 partner_text: "Tietoevry er en av Nordens ledende leverandører innen digitale tjenester og bygger en smart og bærekraftig fremtid. Vi gleder oss til arrangementer sammen med Tietoevry, og til å se hvilke muligheter de har for oss Digøkere."
 partner_vacancies_header: "Graduate Program"
-# partner_vacancies: [
-#  {
-#    deadline: "7. september 2022",
-#    title: "We are looking for Tech graduates to our specialist track in Norway",
-#    link: "https://tieto.wd3.myworkdayjobs.com/no-NO/Tieto_Careers_External_Site/job/Norway-Fornebu/We-are-looking-for-Tech-graduates-to-our-specialist-track-in-Norway-_R105317-1",
-#    text: "Lorum ipsum",
-#  },
-#]
+partner_vacancies: [
+ {
+    deadline: "9. oktober 2022 ⏰",
+    title: "Tietoevry ansetter nyutdannede! 🎓",
+    link: "https://bit.ly/3DWuNs8",
+    text: "Vår samarbeidspartner Tietoevry tilbyr unik mulighet for Dig.øk-studenter med oppstart høsten 2023 👩‍💻🚀
+    Hos Tietoevry kan du hjelpe bedrifter og samfunn med å nå deres fulle potensiale – samtidig som du når ditt eget.
+    <br/><a href='https://www.tietoevry.com/en/campaigns/2022/graduate-program/' target='_blank'>Les mer om graduate programmet her</a>"
+  },
+]
 
 events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9' target='_blank'>Send inn ditt her!</a>"
 events: "assets/pictures/arrplan.jpg"

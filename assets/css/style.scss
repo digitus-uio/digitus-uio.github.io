@@ -181,10 +181,12 @@ span {
   padding: 10px;
   display: table-cell;
   align-content: center;
+  vertical-align: middle;
   width: 2%;
 }
 
 .sponsor .sponsor-about p {
+  display: flex;
   text-align: center;
 }
 
@@ -199,7 +201,7 @@ span {
   font-size: 25px;
   margin-top: 25px;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -218,7 +220,6 @@ span {
   font-size: 14px;
   margin-bottom: 18px;
   text-align: center;
-  color: white;
 }
 
 .board-members {
