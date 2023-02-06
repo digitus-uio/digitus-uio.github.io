@@ -19,7 +19,7 @@ partner_vacancies_header: ""
 partner_vacancies: []
 
 events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9' target='_blank'>Send inn ditt her!</a>"
-events: "assets/pictures/arrplan.jpg"
+events: "assets/pictures/arrplan.png"
 
 press: [
   {
