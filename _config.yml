@@ -72,7 +72,7 @@ press: [
 board_members: [
   {
     name: "Sigmund Trutt",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/leder.jpg",
     role: "Leder",
     mail: "leder@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/sigmund-trutt-23a601251/",
@@ -80,7 +80,7 @@ board_members: [
   },
   {
     name: "Daniel Nordquelle",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/nestleder.jpg",
     role: "Nestleder",
     mail: "nestleder@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/daniel-nordquelle-15a153221/",
@@ -88,7 +88,7 @@ board_members: [
   },
   {
     name: "Ove Malmstrøm",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/øko.jpg",
     role: "Økonomiansvarlig",
     mail: "okonomi@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/ove-malmstr%C3%B8m-73968b1/",
@@ -96,7 +96,7 @@ board_members: [
   },
   {
     name: "Hans Andersen",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/event.jpg",
     role: "Eventansvarlig",
     mail: "event@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/hansandersen/",
@@ -104,7 +104,7 @@ board_members: [
   },
   {
     name: "Arian Svirca",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/bedrift.jpg",
     role: "Bedriftskontakt",
     mail: "bedrift@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/arian-svirca/",
@@ -112,7 +112,7 @@ board_members: [
   },
   {
     name: "Hanna Øster",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/pr.jpg",
     role: "PR-ansvarlig",
     mail: "pr@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/hanna-vollmo-%C3%B8ster-40a65b251/",
@@ -120,7 +120,7 @@ board_members: [
   },
   {
     name: "Kim Isak Olsen",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/senior.jpg",
     role: "Seniormedlem",
     mail: "seniør@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/kimisak/",
@@ -128,7 +128,7 @@ board_members: [
   },
   {
     name: "Swetha Karthikeyan",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/styremedlem1.jpg",
     role: "Styremedlem",
     mail: "styremedlem1@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/swetha-karthikeyan-63aa12249/",
@@ -136,7 +136,7 @@ board_members: [
   },
   {
     name: "Tollev Sauar",
-    img: "assets/img/placeholder_profile.jpg",
+    img: "assets/img/styremedlem2.jpg",
     role: "Styremedlem",
     mail: "styremedlem2@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/tollev-sauar-a4ba781bb/",
