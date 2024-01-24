@@ -87,7 +87,7 @@ board_members: [
     grade: "4",
   },
   {
-    name: "Ove Malmstrøm",
+    name: "Aleksander Høiness",
     img: "assets/img/øko.jpg",
     role: "Økonomiansvarlig",
     mail: "okonomi@digitusuio.no",
