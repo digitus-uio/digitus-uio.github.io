@@ -71,12 +71,12 @@ press: [
 
 board_members: [
   {
-    name: "Sigmund Trutt",
+    name: "Daniel Nordquelle",
     img: "assets/img/leder.jpg",
     role: "Leder",
     mail: "leder@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/sigmund-trutt-23a601251/",
-    grade: "1",
+    linkedin: "https://www.linkedin.com/in/daniel-nordquelle-15a153221/",
+    grade: "2",
   },
   {
     name: "Tollev Sauar",
@@ -91,8 +91,8 @@ board_members: [
     img: "assets/img/øko.jpg",
     role: "Økonomiansvarlig",
     mail: "okonomi@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/ove-malmstr%C3%B8m-73968b1/",
-    grade: "2",
+    linkedin: "https://no.linkedin.com/in/aleksander-h%C3%B8iness-472552216",
+    grade: "3",
   },
   {
     name: "Liam Nuschen",
