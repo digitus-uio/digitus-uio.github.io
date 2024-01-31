@@ -135,11 +135,11 @@ board_members: [
     grade: "2",
   },
   {
-    name: "Dion Kumnova",
+    name: "Sander Thomasrud",
     img: "assets/img/styremedlem2.jpg",
     role: "Styremedlem",
     mail: "styremedlem2@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/dion-kumnova/",
-    grade: "2",
+    linkedin: "https://www.linkedin.com/in/sander-thomasrud-599715295/",
+    grade: "3",
   },
 ]
