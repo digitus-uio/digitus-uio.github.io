@@ -34,7 +34,7 @@
       <label class="menu-icon" for="nav-trigger"><span class="navicon"></span></label>
       <div class="menu">
         <a href="#calendar-span">ARRANGEMENTER</a>
-        <!--<a href="#sponsor-span">SAMARBEIDSPARTNER</a>-->
+        <a href="#sponsor-span">SAMARBEIDSPARTNER</a>
         <a href="#board-span">STYRET</a>
         <a href="#press-span">NYHETER</a>
       </div>
@@ -60,34 +60,39 @@
         <img src="{{ site.events }}" alt="event plan" id="eventPlan"/>
         <p><a href="https://www.facebook.com/digitusuio/" target="_blank" >Datoer og innhold kan endre seg. Følg med på vår Facebook-side for oppdatert info.</a></p>
       </div>
-      <!--
+      
       <span id="sponsor-span"></span>
       <div id="sponsor" class="section sponsor">
         <h2>Vår samarbeidspartner</h2>
         <a href="{{ site.partner_url }}" target="_blank">
           <img src="{{ site.partner_logo }}" alt="partner logo"/>
         </a>
-        <div class="table">
-          <div class="table-cell">
-            <div class="sponsor-about">
-              <p>{{ site.partner_text }}</p>
-            </div>
-          </div>
-          {% if site.partner_vacancies %}
-            <div class="table-cell">
-                <div class="vacancies">
-                  <h3>{{site.partner_vacancies_header}}</h3>
-                  {% for vacancy in site.partner_vacancies %}
-                    <a href="{{vacancy.link}}" target="_blank" >{{ vacancy.title }}</a>
-                    <p>Frist: {{ vacancy.deadline }}</p>
-                    <p>{{ vacancy.text }}</p>
-                  {% endfor %}
-              </div>
-          {% endif %}
-          </div>
-        </div>
+        <!-- FILEPATH: /Users/dannq/digitus-uio.github.io/_layouts/default.html -->
+        <!-- BEGIN: ed8c6549bwf9 -->
+        <!--
+                <div class="table">
+                  <div class="table-cell">
+                    <div class="sponsor-about">
+                      <p>{{ site.partner_text }}</p>
+                    </div>
+                  </div>
+                  {% if site.partner_vacancies %}
+                    <div class="table-cell">
+                        <div class="vacancies">
+                          <h3>{{site.partner_vacancies_header}}</h3>
+                          {% for vacancy in site.partner_vacancies %}
+                            <a href="{{vacancy.link}}" target="_blank" >{{ vacancy.title }}</a>
+                            <p>Frist: {{ vacancy.deadline }}</p>
+                            <p>{{ vacancy.text }}</p>
+                          {% endfor %}
+                      </div>
+                  {% endif %}
+                  </div>
+                </div>
+        -->
+        <!-- END: ed8c6549bwf9 -->
       </div>
-      -->
+      
       <span id="board-span"></span>
       <div id="board" class="section board table">
         <h2>Styret</h2>

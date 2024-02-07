@@ -12,8 +12,8 @@ about_image: ""
 
 instagram_limit: 6
 
-partner_url: ""
-partner_logo: ""
+partner_url: "https://genus.co/"
+partner_logo: "assets/img/partner_logo.jpg"
 partner_text: ""
 partner_vacancies_header: ""
 partner_vacancies: []
