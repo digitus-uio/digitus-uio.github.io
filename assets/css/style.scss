@@ -159,6 +159,7 @@ span {
 .sponsor {
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center the sponsor section */
 }
 
 .sponsor a img {
@@ -181,18 +182,19 @@ span {
 }
 
 .sponsor .table {
-  display: table;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   padding: 10px;
-  align-content: center;
-  table-layout: fixed;
+  width: 100%; /* Ensure the table takes full width */
 }
 
 .sponsor .table-cell {
   padding: 10px;
-  display: table-cell;
-  align-content: center;
-  vertical-align: middle;
-  width: 2%;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Stack content vertically */
 }
 
 .sponsor .sponsor-about p {
@@ -202,9 +204,11 @@ span {
 
 .vacancies {
   background-color: rgba(var(--gradient-end), .5);
-  padding: 30px;
+  padding: 50px; /* Increase padding */
+  margin: 20px 0; /* Add margin to increase size */
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center the vacancies content */
 }
 
 .vacancies h3 {
