@@ -135,12 +135,12 @@ board_members: [
     grade: "3",
   },
   {
-    name: "Kristian August Stubdal",
+    name: "Casper Furum",
     img: "assets/img/senior.jpg",
-    role: "Seniormedlem",
-    mail: "seniør@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/kristian-august-stubdal-aaa422241/",
-    grade: "2",
+    role: "Internansvarlig",
+    mail: "senior@digitusuio.no",
+    linkedin: "https://no.linkedin.com/in/casper-furum-013a0820b",
+    grade: "3",
   },
   {
     name: "Tollef Grindheim",
