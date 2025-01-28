@@ -61,6 +61,7 @@
         <p><a href="https://www.facebook.com/digitusuio/" target="_blank" >Datoer og innhold kan endre seg. Følg med på vår Facebook-side for oppdatert info.</a></p>
       </div>
       
+      <span id="sponsor-span"></span>
       <div id="sponsor" class="section sponsor">
         <h2>Vår samarbeidspartner</h2>
         <a href="{{ site.partner_url }}" target="_blank">
@@ -182,7 +183,11 @@
         });
       });
 
-      var moveTo = new MoveTo();
+      var moveTo = new MoveTo({
+        tolerance: 0,
+        duration: 800,
+        easing: 'easeOutQuart'
+      });
 
       (function() {
         var menuItems = document.getElementsByClassName('menu')[0]
