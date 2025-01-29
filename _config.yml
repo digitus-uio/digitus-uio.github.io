@@ -87,12 +87,12 @@ press: [
 
 board_members: [
   {
-    name: "Daniel Nordquelle",
+    name: "Elle C. Ramstad",
     img: "assets/img/leder.jpg",
     role: "Leder",
     mail: "leder@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/daniel-nordquelle-15a153221/",
-    grade: "3",
+    linkedin: "https://www.linkedin.com/in/elle-christine-ramstad-a02a60229/",
+    grade: "2",
   },
   {
     name: "Simon Karlsen",
@@ -103,11 +103,11 @@ board_members: [
     grade: "2",
   },
   {
-    name: "Georg Breen",
+    name: "Joel Ross Ramsvik",
     img: "assets/img/øko.jpg",
     role: "Økonomiansvarlig",
     mail: "okonomi@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/georg-breen-7aa199292/",
+    linkedin: "https://www.linkedin.com/in/joel-ross-ramsvik-81b51724b/",
     grade: "3",
   },
   {
@@ -151,11 +151,11 @@ board_members: [
     grade: "2",
   },
   {
-    name: "Elle C. Ramstad",
+    name: "Marcus Byhring Ølnes",
     img: "assets/img/styremedlem2.jpg",
     role: "Styremedlem",
     mail: "styremedlem2@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/elle-christine-ramstad-a02a60229/",
-    grade: "2",
+    linkedin: "https://www.linkedin.com/in/marcus-byhring-ølnes-270691214/",
+    grade: "1",
   },
 ]
