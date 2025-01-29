@@ -108,7 +108,7 @@ board_members: [
     role: "Økonomiansvarlig",
     mail: "okonomi@digitusuio.no",
     linkedin: "https://www.linkedin.com/in/joel-ross-ramsvik-81b51724b/",
-    grade: "3",
+    grade: "1",
   },
   {
     name: "Sondre Buer",
