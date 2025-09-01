@@ -107,7 +107,7 @@ board_members: [
     img: "assets/img/øko.jpg",
     role: "Økonomiansvarlig",
     mail: "okonomi@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/joel-ross-ramsvik-81b51724b/",
+    linkedin: "https://www.linkedin.com/in/gunilla-danielsen-0676192b2/",
     grade: "2",
   },
   {
@@ -115,7 +115,7 @@ board_members: [
     img: "assets/img/event.jpg",
     role: "Eventansvarlig",
     mail: "event@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/sondre-buer-17913a285/",
+    linkedin: "https://www.linkedin.com/in/theresa-johanna-ingvarsdottir-b31364356/",
     grade: "2",
   },
   {
@@ -131,7 +131,7 @@ board_members: [
     img: "assets/img/pr.jpg",
     role: "PR-ansvarlig",
     mail: "pr@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/liam-nuschen-3a8560251/",
+    linkedin: "https://www.linkedin.com/in/tone-kvidal-87838123a/",
     grade: "2",
   },
   {
@@ -155,7 +155,7 @@ board_members: [
     img: "assets/img/styremedlem2.jpg",
     role: "Styremedlem",
     mail: "styremedlem2@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/marcus-byhring-ølnes-270691214/",
+    linkedin: "https://www.linkedin.com/in/linn-kristine-riple-1b2aa1253/",
     grade: "2",
   },
 ]
