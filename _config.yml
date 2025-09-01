@@ -147,7 +147,7 @@ board_members: [
     img: "assets/img/styremedlem1.jpg",
     role: "Styremedlem",
     mail: "styremedlem1@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/tollef-grindheim-b75a58200/",
+    linkedin: "http://linkedin.com/in/daniel-lindalen-25900b272",
     grade: "2",
   },
   {
