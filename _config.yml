@@ -87,12 +87,12 @@ press: [
 
 board_members: [
   {
-    name: "Elle C. Ramstad",
-    img: "assets/img/leder.jpg",
+    name: "Linn Kristine Lerøy Riple",
+    img: "assets/img/styremedlem2.jpg",
     role: "Leder",
     mail: "leder@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/elle-christine-ramstad-a02a60229/",
-    grade: "3",
+    linkedin: "https://www.linkedin.com/in/linn-kristine-riple-1b2aa1253/",
+    grade: "2",
   },
   {
     name: "Marcus Byhring Ølnes",
@@ -143,19 +143,19 @@ board_members: [
     grade: "2",
   },
   {
-    name: "Daniel Røyset Lindalen",
+    name: "Deniz Sæther-Mehmetoglu",
     img: "assets/img/styremedlem1.jpg",
     role: "Styremedlem",
     mail: "styremedlem1@digitusuio.no",
-    linkedin: "http://linkedin.com/in/daniel-lindalen-25900b272",
-    grade: "2",
+    linkedin: "https://www.linkedin.com/in/denizsaether/",
+    grade: "1",
   },
   {
-    name: "Linn Kristine Lerøy Riple",
+    name: "Marielle Forsmo",
     img: "assets/img/styremedlem2.jpg",
     role: "Styremedlem",
     mail: "styremedlem2@digitusuio.no",
-    linkedin: "https://www.linkedin.com/in/linn-kristine-riple-1b2aa1253/",
-    grade: "2",
+    linkedin: "https://www.linkedin.com/in/marielle-forsmo-b76335398/",
+    grade: "1",
   },
 ]
