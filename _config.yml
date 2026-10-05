@@ -37,53 +37,7 @@ partner_vacancies:
 events_desc: "Vi vil gjerne ha ris, ros og arrangementsforslag. <a href='https://forms.gle/Mttzz249kaA8imkS9' target='_blank'>Send inn ditt her!</a>"
 events: "assets/pictures/semesterplanh26.jfif"
 
-press: [
-  {
-    title: "Elitestudentenes beste råd: Slik studerer du for å få toppkarakter",
-    subtitle: "e24, 21. oktober 2021",
-    link: "https://e24.no/shared/karriere-og-ledelse/i/JxB90b/elitestudentenes-beste-raad-s[…]335030e04eb816f7a9f5176dbbb410e5c8c3a_1635399771_S2plbGwgQmVybnQ=",
-  },
-  {
-    title: "Hvorfor ta en master i informatikk: digital økonomi og ledelse?",
-    subtitle: "UiO, 22. mars 2021",
-    link: "https://www.uio.no/studier/program/informatikk-ledelse-master/studiemiljo/hvorfor-ta-en-master-i-informatikk.html",
-  },
-  {
-    title: "Hvordan er det å studere digital økonomi og ledelse?",
-    subtitle: "UiO, 12. mai 2020",
-    link: "https://www.uio.no/studier/program/informatikk-ledelse/studiemiljo/digok-fremtidens-arbeidsoppgaver-ahlam.html",
-  },
-  {
-    title: "Her er nåløyet trangest",
-    subtitle: "Dagens Næringsliv, 19. juli 2018",
-    link: "https://www.dn.no/utdannelse/samordna-opptak/studieretning/her-er-naloyet-trangest/2-1-381991",
-  },
-  {
-    title: "I fjor fikk Eivinds studie så mange søkere at de måtte doble kapasiteten.",
-    subtitle: "Aftenposten, 18. juli 2018",
-    link: "https://www.aftenposten.no/karriere/I-fjor-fikk-Eivinds-studium-sa-mange-sokere-at-de-matte-doble-kapasiteten-Her-er-arets-mest-populare-studier-11872b.html",
-  },
-  {
-    title: "Fremtidens leder",
-    subtitle: "UiO.no, 22. juni 2018",
-    link: "https://www.uio.no/studier/program/informatikk-ledelse/karriereintervjuer/dig%C3%B8k-julie-eld%C3%B8y.html",
-  },
-  {
-    title: "“Alle” vil til it-studier",
-    subtitle: "Dagens Næringsliv, 19. april 2018",
-    link: "https://www.dn.no/utdannelse/samordna-opptak/uio/samordna/alle-vil-til-it-studier/2-1-317669",
-  },
-  {
-    title: "Knallhard kamp om studieplassene",
-    subtitle: "Dagens Næringsliv, 19. juli 2017",
-    link: "https://www.dn.no/utdannelse/samordna-opptak/nils-martin-stolen/julie-eldoy/knallhard-kamp-om-it-studieplassene/2-1-127101",
-  },
-  {
-    title: "Fremtidens ledere har solid digital kompetanse",
-    subtitle: "Titan (UiO), 17. mars 2017",
-    link: "https://titan.uio.no/node/2233",
-  },
-]
+
 
 board_members: [
   {

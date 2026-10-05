@@ -115,16 +115,7 @@
         <h3> Kommer du fra næringslivet og ønsker å promotere bedriften din eller holde bedriftspresentasjon?</h3>
         <p> Ta kontakt med <a href="https://www.ifinavet.no/for-bedrifter/">navet</a>: IFIs koordinerings- og kommunikasjonssentral for bedrifter.</p>
       </div>
-      <span id="press-span"></span>
-      <div class="section press">
-        <h2>Nyheter</h2>
-        {% for press in site.press %}
-        <div>
-          <a href="{{ press.link }}" target="_blank" >{{ press.title }}</a>
-          <p>{{ press.subtitle }}</p>
-        </div>
-        {% endfor %}
-      </div>
+      
     </main>
     <footer class="page-footer">
       <img src="/assets/img/logo.png" alt="logo"/>
